@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "scene_version": "focus_v4 (latest)",
+  "scene": "C:\\Users\\woom\\Desktop\\woom\\astra_scene\\focus_v4\\focused_zone_with_r1pro.usda",
+  "robot": "Galaxea R1 Pro",
+  "robot_spawn_xyz_m": [
+    0.25,
+    -0.55,
+    0.0
+  ],
+  "articulation_root": "/World/R1Pro/base_link",
+  "joint_count": 42,
+  "collision_proxy_count": 34,
+  "environment_geometry_count": 341,
+  "physics_scene_loaded": true,
+  "robot_world_bounds_m": {
+    "min": [
+      -0.14707224580329392,
+      -0.8874754393208432,
+      -4.3884273312339085e-06
+    ],
+    "max": [
+      0.48899855062419856,
+      -0.21253994437613966,
+      1.7013979603483802
+    ]
+  }
+}

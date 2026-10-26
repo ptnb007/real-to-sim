@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "mode": "physics_smoke",
+  "checks": {
+    "finite_pose_stream": true,
+    "frames": 120,
+    "links": 1,
+    "initial_z_m": 0.9979562759399414,
+    "final_z_m": 0.09999991208314896,
+    "fell_under_gravity": true,
+    "rested_on_ground": true
+  },
+  "scope": "Physics + pose stream only. No CRUZR model or 3DGS rendering validated."
+}

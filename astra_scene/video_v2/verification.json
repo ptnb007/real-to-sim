@@ -1,0 +1,21 @@
+{
+  "type": "photo-guided approximate editable scene",
+  "measured_scale": false,
+  "assumed_room_m": [
+    7.2,
+    8.6,
+    3
+  ],
+  "photos": 5,
+  "collision_boxes": 71,
+  "robot_reference_valid": true,
+  "physics_runtime_tested": false,
+  "limitations": [
+    "Unseen room boundaries estimated",
+    "People and loose cables omitted",
+    "Robot placement requires simulation validation"
+  ],
+  "version": 2,
+  "video_seconds": 16.57,
+  "note": "Extended region is inferred from video, not metrically reconstructed"
+}

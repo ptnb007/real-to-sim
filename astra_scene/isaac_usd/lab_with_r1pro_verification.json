@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "scene": "C:\\Users\\woom\\Desktop\\woom\\astra_scene\\isaac_usd\\lab_with_r1pro.usda",
+  "robot": "Galaxea R1 Pro",
+  "robot_root": "/World/R1Pro",
+  "articulation_root": "/World/R1Pro/base_link",
+  "joint_count": 42,
+  "collision_proxy_count": 42,
+  "robot_world_bounds_m": {
+    "min": [
+      1.6029277541967057,
+      -1.8374754393208435,
+      -4.388427331261688e-06
+    ],
+    "max": [
+      2.2389985506241983,
+      -1.16253994437614,
+      1.7013979603483802
+    ]
+  },
+  "visual_environment_loaded": true,
+  "environment_geometry_count": 235,
+  "physics_scene_loaded": true
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "robot": "NVIDIA Jetbot",
+  "prim_path": "/World/Jetbot",
+  "degrees_of_freedom": 2,
+  "asset": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/NVIDIA/Jetbot/jetbot.usd",
+  "scene": "C:\\Users\\woom\\Desktop\\woom\\isaacsim\\jetbot_scene.usda",
+  "preview": "C:\\Users\\woom\\Desktop\\woom\\isaacsim\\jetbot_scene_preview.png"
+}

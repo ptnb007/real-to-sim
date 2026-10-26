@@ -1,0 +1,12 @@
+[
+  {
+    "stage": "ccm",
+    "exit_code": 0,
+    "input": "/mnt/c/Users/woom/Desktop/woom/mira_scene/results/lab_between_dividers/cases"
+  },
+  {
+    "stage": "depth",
+    "exit_code": 0,
+    "input": "/mnt/c/Users/woom/Desktop/woom/mira_scene/results/lab_between_dividers/cases"
+  }
+]

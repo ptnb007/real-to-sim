@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mira 实验室建模结果</title>
+<style>
+html,body,#canvas{width:100%;height:100%;margin:0;overflow:hidden;background:#10141c}#canvas{touch-action:none}
+#bar{position:fixed;z-index:2;left:16px;top:14px;padding:10px 12px;border-radius:10px;background:#151b25dd;color:#eef3fa;font:14px system-ui;box-shadow:0 5px 24px #0008}
+button{margin-left:8px;padding:6px 10px;border:1px solid #526174;border-radius:6px;background:#283445;color:white;cursor:pointer}.note{color:#aeb9c8;margin-top:7px;font-size:12px}
+</style></head><body>
+<div id="bar"><b>Mira 彩色表面模型</b><button onclick="loadModel('tables_purple.glb')">紫色挡板＋桌子</button><button onclick="loadModel('white_boundary.glb')">白色挡板</button><div class="note">左键旋转 · 右键平移 · 滚轮缩放 · 相对深度，非米制</div></div>
+<canvas id="canvas"></canvas>
+<script src="https://cdn.babylonjs.com/babylon.js"></script>
+<script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+<script>
+const canvas=document.getElementById('canvas'), engine=new BABYLON.Engine(canvas,true), scene=new BABYLON.Scene(engine);
+scene.clearColor=new BABYLON.Color4(.055,.07,.10,1); const camera=new BABYLON.ArcRotateCamera('camera',-Math.PI/2,Math.PI/2.3,4,BABYLON.Vector3.Zero(),scene); camera.attachControl(canvas,true); camera.wheelPrecision=35; camera.panningSensibility=80;
+new BABYLON.HemisphericLight('light',new BABYLON.Vector3(0,1,0),scene).intensity=1.2;
+async function loadModel(file){scene.meshes.filter(m=>m.name!=='').forEach(m=>m.dispose()); const result=await BABYLON.SceneLoader.ImportMeshAsync('', './', file, scene); const meshes=result.meshes.filter(m=>m.getTotalVertices&&m.getTotalVertices()>0); let min=new BABYLON.Vector3(Infinity,Infinity,Infinity),max=new BABYLON.Vector3(-Infinity,-Infinity,-Infinity); meshes.forEach(m=>{m.refreshBoundingInfo();const b=m.getBoundingInfo().boundingBox;min=BABYLON.Vector3.Minimize(min,b.minimumWorld);max=BABYLON.Vector3.Maximize(max,b.maximumWorld)});const center=min.add(max).scale(.5),size=max.subtract(min).length();camera.setTarget(center);camera.radius=Math.max(size*1.15,.5);document.title='Mira 模型 - '+file}
+loadModel('tables_purple.glb'); engine.runRenderLoop(()=>scene.render()); addEventListener('resize',()=>engine.resize());
+</script></body></html>

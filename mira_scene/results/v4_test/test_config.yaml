@@ -1,0 +1,71 @@
+api:
+  base_url: https://lumina.tripo3d.com/v1
+  timeout: 300
+checkpoints:
+  ccm: /path/to/ccm-pipeline
+  dinov3: /path/to/dinov3-vitl16
+  ppd: /path/to/ppd.pth
+  ppd_da2: /path/to/depth_anything_v2_vitl.pth
+  ppd_moge: /path/to/moge2.pt
+  rmbg: /path/to/RMBG-2.0
+  sam3d: /path/to/sam3d/checkpoints/pipeline.yaml
+  trellis2: /path/to/TRELLIS.2-4B
+depth:
+  enable_metric: false
+  method: moge
+environment:
+  alignment_fov_degrees: 60.0
+environments:
+  ccm:
+    python: /home/woom/mira_envs/geometry-rtx5060/bin/python
+  depth:
+    python: /home/woom/mira_envs/geometry-rtx5060/bin/python
+  environment:
+    python: /home/woom/mira_envs/geometry-rtx5060/bin/python
+  floor:
+    python: /home/woom/mira_envs/geometry-rtx5060/bin/python
+  mesh:
+    python: /home/woom/mira_envs/geometry-rtx5060/bin/python
+  scene:
+    python: /home/woom/mira_envs/geometry-rtx5060/bin/python
+  segmentation:
+    python: /home/woom/mira_envs/geometry-rtx5060/bin/python
+  trellis2:
+    python: /home/woom/mira_envs/geometry-rtx5060/bin/python
+external:
+  mira_ccm:
+    repo: /path/to/Mira-CCM
+  moge:
+    repo: /home/woom/Mira-Scene/external/MoGe
+  ppd:
+    repo: /path/to/pixel-perfect-depth
+  sam3:
+    checkpoint: /path/to/sam3.pt
+    repo: /path/to/official-sam3
+  sam3d:
+    repo: /path/to/sam-3d-objects
+  trellis2:
+    repo: /path/to/TRELLIS.2
+  unidataset:
+    repo: /path/to/UniDataset
+floor:
+  generate_texture: false
+  require_generated: false
+mesh:
+  backend: sam3d
+  bake_texture: true
+scene:
+  solve_method: gravity_joint
+segmentation:
+  device: cuda
+  missing_object_critic_max_overlap: 0.2
+  missing_object_critic_prompt: missing_objects_major_v2.txt
+  missing_object_critic_rounds: 0
+  object_profile: major_v6
+  recycle: true
+  recycle_verifier_mode: identity_upgrade
+  room_prompt: list_objects_major_v5.txt
+  sam3_confidence: 0.5
+  save_debug: false
+  tabletop_prompt: list_objects_tabletop_v1.txt
+  vlm_model: gemini-2.5-pro

@@ -1,0 +1,30 @@
+[
+  {
+    "category": "robot",
+    "prompt": "robot",
+    "score": 0.98046875,
+    "mask": "mask_000.png",
+    "pixels": 237690
+  },
+  {
+    "category": "divider",
+    "prompt": "folding privacy screen",
+    "score": 0.7734375,
+    "mask": "mask_001.png",
+    "pixels": 331451
+  },
+  {
+    "category": "table",
+    "prompt": "table covered with black cloth",
+    "score": 0.89453125,
+    "mask": "mask_002.png",
+    "pixels": 91960
+  },
+  {
+    "category": "table",
+    "prompt": "table covered with black cloth",
+    "score": 0.89453125,
+    "mask": "mask_003.png",
+    "pixels": 190557
+  }
+]

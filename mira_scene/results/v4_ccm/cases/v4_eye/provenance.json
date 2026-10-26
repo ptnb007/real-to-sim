@@ -1,0 +1,27 @@
+{
+  "input_type": "synthetic v4 Blender render, NOT real photograph",
+  "segmentation": "official SAM3 text prompts; human visual review",
+  "limitations": [
+    "table masks predominantly cover cloth; legs omitted",
+    "television mask may omit stand",
+    "white screen panel masks require instance consolidation"
+  ],
+  "objects": [
+    {
+      "index": 0,
+      "source_mask": "table_covered_with_a_gray_tablecloth_00"
+    },
+    {
+      "index": 1,
+      "source_mask": "table_covered_with_a_gray_tablecloth_01"
+    },
+    {
+      "index": 2,
+      "source_mask": "folding_room_divider_00"
+    },
+    {
+      "index": 3,
+      "source_mask": "television_00"
+    }
+  ]
+}

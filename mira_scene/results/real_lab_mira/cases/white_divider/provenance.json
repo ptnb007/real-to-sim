@@ -1,0 +1,22 @@
+{
+  "source": "/mnt/c/Users/woom/Desktop/woom/gaussian_splatting/input_photos_20260930/5473f5c5d4281be7c15cc84b828c47d6.jpg",
+  "input_type": "real photo/video frame",
+  "method": "official SAM3 text segmentation; not VLM scene graph",
+  "not_reconstructed": [
+    "excluded robot/person regions; no invented background"
+  ],
+  "objects": [
+    {
+      "prompt": "white folding room divider",
+      "score": 0.76171875,
+      "mask": "mask_000.png",
+      "pixels": 517814
+    },
+    {
+      "prompt": "floor",
+      "score": 0.8828125,
+      "mask": "floor_mask.png",
+      "pixels": 438674
+    }
+  ]
+}

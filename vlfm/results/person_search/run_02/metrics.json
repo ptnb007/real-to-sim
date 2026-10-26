@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "episode_count": 1,
+  "task": "custom static person search",
+  "policy": "VLFM ITMPolicyV2 + GroundingDINO person adapter",
+  "steps": 45,
+  "path_length_m": 5.00000274181366,
+  "distance_to_person_center_m": 1.0189191484797917,
+  "success_radius_m": 1.2,
+  "stop_called": true,
+  "inserted_person_detection_confirmed": true,
+  "initial_person_visible": false,
+  "last_matching_detection_step": 44,
+  "elapsed_seconds": 37.096093921000005,
+  "target_position_passed_to_policy": false,
+  "policy_inputs": [
+    "rgb",
+    "depth",
+    "gps",
+    "compass",
+    "heading",
+    "person"
+  ],
+  "not_a_benchmark": true
+}

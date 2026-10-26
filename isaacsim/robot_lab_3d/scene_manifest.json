@@ -1,0 +1,1011 @@
+{
+  "description": "Photo-referenced approximate partial laboratory scene, not a calibrated 3D reconstruction",
+  "robots": 0,
+  "scale_calibrated": false,
+  "assumed_table_height_m": 0.75,
+  "up_axis_glb": "Y",
+  "up_axis_usd": "Z",
+  "usd_meters_per_unit": 1,
+  "objects": [
+    {
+      "id": "floor",
+      "label": "木纹地板 · 可见区域",
+      "category": "architecture",
+      "draggable": false,
+      "note": "仅为照片覆盖区的裁切边界；不是实测房间轮廓。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          -3.25,
+          -0.12999999523162842,
+          -2.799999952316284
+        ],
+        [
+          3.25,
+          0.003000000026077032,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "id": "walls",
+      "label": "墙体与出口门",
+      "category": "architecture",
+      "draggable": false,
+      "note": "依照片建立后墙、右墙。其余边界未知，未闭合成完整房间。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          -3.25,
+          0.0,
+          -2.9000000953674316
+        ],
+        [
+          3.3499999046325684,
+          2.9600000381469727,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "id": "blinds_vent",
+      "label": "卷帘与空调风口",
+      "category": "architecture",
+      "draggable": false,
+      "note": "位置与外观参考照片；尺寸近似。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          2.8420000076293945,
+          1.1549999713897705,
+          -2.74399995803833
+        ],
+        [
+          3.249000072479248,
+          2.9600000381469727,
+          2.5250000953674316
+        ]
+      ]
+    },
+    {
+      "id": "poster_wall",
+      "label": "海报展示墙",
+      "category": "architecture",
+      "draggable": false,
+      "note": "海报正面取自原始照片；背面和厚度为近似。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          -3.2249999046325684,
+          1.006500005722046,
+          -2.7839999198913574
+        ],
+        [
+          1.784999966621399,
+          2.7100000381469727,
+          -2.640000104904175
+        ]
+      ]
+    },
+    {
+      "id": "ceiling",
+      "label": "吊顶与现有灯具",
+      "category": "ceiling",
+      "draggable": false,
+      "note": "默认剖开查看；并非现实中拆除吊顶。网格间距、遮挡区为近似。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          -3.25600004196167,
+          2.6442017555236816,
+          -2.805999994277954
+        ],
+        [
+          3.25600004196167,
+          3.0199999809265137,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "id": "partition",
+      "label": "Lost and Found 折叠隔断",
+      "category": "furniture",
+      "draggable": true,
+      "note": "面板分缝与标牌来自照片；宽度与厚度近似。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          -1.7940000295639038,
+          0.0,
+          -1.872499942779541
+        ],
+        [
+          1.4490000009536743,
+          1.9500000476837158,
+          -1.8049999475479126
+        ]
+      ]
+    },
+    {
+      "id": "front_table",
+      "label": "前方长桌与深灰桌布",
+      "category": "furniture",
+      "draggable": true,
+      "note": "桌高暂定 0.75 m；尺寸未实测；桌布为静态视觉网格。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          -2.2348456382751465,
+          0.0,
+          -0.326840877532959
+        ],
+        [
+          -0.8051542639732361,
+          0.7617964744567871,
+          2.2868409156799316
+        ]
+      ]
+    },
+    {
+      "id": "rear_table",
+      "label": "后方工作桌与深灰桌布",
+      "category": "furniture",
+      "draggable": true,
+      "note": "桌高暂定 0.75 m；尺寸未实测；桌布为静态视觉网格。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          -0.8066533207893372,
+          0.0,
+          -1.7615424394607544
+        ],
+        [
+          1.7466533184051514,
+          0.7617982029914856,
+          -0.6884576082229614
+        ]
+      ]
+    },
+    {
+      "id": "grey_bin",
+      "label": "桌下灰色收纳箱",
+      "category": "storage",
+      "draggable": true,
+      "note": "静态容器代理；壁厚与遮挡处未测量。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          -0.5674999952316284,
+          0.014000000432133675,
+          -1.3674999475479126
+        ],
+        [
+          -0.07249999791383743,
+          0.23649999499320984,
+          -0.9125000238418579
+        ]
+      ]
+    },
+    {
+      "id": "black_bin",
+      "label": "桌下黑色收纳箱",
+      "category": "storage",
+      "draggable": true,
+      "note": "静态容器代理；壁厚与遮挡处未测量。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          -0.019999999552965164,
+          0.014000000432133675,
+          -1.5800000429153442
+        ],
+        [
+          0.800000011920929,
+          0.3815000057220459,
+          -1.1200000047683716
+        ]
+      ]
+    },
+    {
+      "id": "blue_bin",
+      "label": "桌下蓝色收纳箱",
+      "category": "storage",
+      "draggable": true,
+      "note": "静态容器代理；壁厚与遮挡处未测量。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          0.8650000095367432,
+          0.014000000432133675,
+          -1.5399999618530273
+        ],
+        [
+          1.375,
+          0.351500004529953,
+          -1.1200000047683716
+        ]
+      ]
+    },
+    {
+      "id": "waste_bin",
+      "label": "桌间黑色垃圾桶",
+      "category": "storage",
+      "draggable": true,
+      "note": "桶内小物仅做近似，不是完整重建。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          -1.1540000438690186,
+          0.024000000208616257,
+          -0.9739999771118164
+        ],
+        [
+          -0.7059999704360962,
+          0.5584999918937683,
+          -0.5260000228881836
+        ]
+      ]
+    },
+    {
+      "id": "paper_bag",
+      "label": "UNIQLO 牛皮纸袋",
+      "category": "props",
+      "draggable": true,
+      "note": "正面为照片纹理；侧面、背面与折痕为近似；无柔体物理。",
+      "parent": "front_table",
+      "estimated": true,
+      "bounds": [
+        [
+          -1.7649999856948853,
+          0.7649999856948853,
+          0.03645604848861694
+        ],
+        [
+          -1.375,
+          1.184000015258789,
+          0.24635957181453705
+        ]
+      ]
+    },
+    {
+      "id": "white_tote",
+      "label": "白色 NUS 布袋",
+      "category": "props",
+      "draggable": true,
+      "note": "外形为静态近似；不含布料动力学。",
+      "parent": "front_table",
+      "estimated": true,
+      "bounds": [
+        [
+          -1.3799999952316284,
+          0.765999972820282,
+          0.07595116645097733
+        ],
+        [
+          -1.0700000524520874,
+          1.1673051118850708,
+          0.2445024996995926
+        ]
+      ]
+    },
+    {
+      "id": "red_white_bag",
+      "label": "红白布袋",
+      "category": "props",
+      "draggable": true,
+      "note": "外形为静态近似；不含布料动力学。",
+      "parent": "front_table",
+      "estimated": true,
+      "bounds": [
+        [
+          -2.0250000953674316,
+          0.765999972820282,
+          0.015951165929436684
+        ],
+        [
+          -1.715000033378601,
+          1.1673051118850708,
+          0.1845024973154068
+        ]
+      ]
+    },
+    {
+      "id": "white_parts",
+      "label": "桌面白色环形与齿形小件",
+      "category": "props",
+      "draggable": true,
+      "note": "可独立移动的静态网格；形状近似。抓取前需重建精细形状并设置刚体参数。",
+      "parent": "rear_table",
+      "estimated": true,
+      "bounds": [
+        [
+          0.6474999785423279,
+          0.7609999775886536,
+          -1.280500054359436
+        ],
+        [
+          1.002500057220459,
+          0.8149999976158142,
+          -1.125023365020752
+        ]
+      ]
+    },
+    {
+      "id": "brown_part",
+      "label": "桌面棕色圆柱小件",
+      "category": "props",
+      "draggable": true,
+      "note": "静态小件；质量与精确形状未知。",
+      "parent": "rear_table",
+      "estimated": true,
+      "bounds": [
+        [
+          -0.3050000071525574,
+          0.7599999904632568,
+          -1.2949999570846558
+        ],
+        [
+          -0.2549999952316284,
+          0.7919999957084656,
+          -1.2450000047683716
+        ]
+      ]
+    },
+    {
+      "id": "left_monitor",
+      "label": "左侧显示屏及移动支架",
+      "category": "equipment",
+      "draggable": true,
+      "note": "屏幕、支架、底座按照片建立；背部连接件近似。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          -3.387474536895752,
+          -0.008999999612569809,
+          -1.8732484579086304
+        ],
+        [
+          -1.932525396347046,
+          2.117000102996826,
+          -1.3467515707015991
+        ]
+      ]
+    },
+    {
+      "id": "right_monitor",
+      "label": "右侧显示屏及移动支架",
+      "category": "equipment",
+      "draggable": true,
+      "note": "屏幕、支架、底座按照片建立；背部连接件近似。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          2.734999895095825,
+          -0.008999999612569809,
+          -0.02199999988079071
+        ],
+        [
+          3.244999885559082,
+          2.131999969482422,
+          1.4819999933242798
+        ]
+      ]
+    },
+    {
+      "id": "equipment_rack",
+      "label": "左后方物料架与折叠杆件",
+      "category": "storage",
+      "draggable": true,
+      "note": "保留非机器人设备与杂物；被遮挡的小件简化为代理。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          -3.0999999046325684,
+          0.0,
+          -2.5450000762939453
+        ],
+        [
+          -2.059999942779541,
+          1.2100000381469727,
+          -1.149999976158142
+        ]
+      ]
+    },
+    {
+      "id": "floor_carton",
+      "label": "隔断旁纸箱",
+      "category": "storage",
+      "draggable": true,
+      "note": "箱体与开口为近似。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          -2.1610000133514404,
+          0.0,
+          -2.2170000076293945
+        ],
+        [
+          -1.819000005722046,
+          0.45500001311302185,
+          -1.9229999780654907
+        ]
+      ]
+    },
+    {
+      "id": "network_power",
+      "label": "路由器、插线板与地面线缆",
+      "category": "equipment",
+      "draggable": true,
+      "note": "线缆只有视觉网格，不是软体；插头、走线与长度近似。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          1.7808595895767212,
+          -0.0418177992105484,
+          0.4406103193759918
+        ],
+        [
+          2.9534857273101807,
+          1.5213823318481445,
+          1.3045059442520142
+        ]
+      ]
+    },
+    {
+      "id": "blue_pedals",
+      "label": "三只蓝色脚踏开关",
+      "category": "props",
+      "draggable": true,
+      "note": "外形和尺寸近似；未绑定交互开关。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          2.3375000953674316,
+          0.008999999612569809,
+          1.25
+        ],
+        [
+          2.8424999713897705,
+          0.07000000029802322,
+          1.4299999475479126
+        ]
+      ]
+    },
+    {
+      "id": "wall_sockets",
+      "label": "墙面电源插座",
+      "category": "architecture",
+      "draggable": false,
+      "note": "位置取近似；不是电气施工图。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          3.176500082015991,
+          0.9850000143051147,
+          -2.7899999618530273
+        ],
+        [
+          3.2249999046325684,
+          1.1725000143051147,
+          3.190000057220459
+        ]
+      ]
+    },
+    {
+      "id": "office_chair",
+      "label": "右侧黑色办公椅",
+      "category": "furniture",
+      "draggable": true,
+      "note": "按可见椅背、扶手及底盘近似；未保留人物。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          1.9084999561309814,
+          0.014999999664723873,
+          2.0876619815826416
+        ],
+        [
+          2.562999963760376,
+          1.0850000381469727,
+          2.7723381519317627
+        ]
+      ]
+    },
+    {
+      "id": "red_chair",
+      "label": "前缘红色椅子",
+      "category": "furniture",
+      "draggable": true,
+      "note": "仅依据照片中露出的部分近似；不包含人物。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          -1.7956877946853638,
+          0.019999999552965164,
+          2.3299999237060547
+        ],
+        [
+          -1.2643122673034668,
+          0.7549999952316284,
+          2.8230791091918945
+        ]
+      ]
+    },
+    {
+      "id": "foreground_tray",
+      "label": "前缘灰色塑料周转盆",
+      "category": "storage",
+      "draggable": true,
+      "note": "静态容器代理；壁厚与遮挡处未测量。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          -2.362499952316284,
+          0.4399999976158142,
+          2.377500057220459
+        ],
+        [
+          -1.7575000524520874,
+          0.6025000214576721,
+          2.8424999713897705
+        ]
+      ]
+    },
+    {
+      "id": "floor_markings",
+      "label": "原有黄黑胶带、粉色胶带与白标记",
+      "category": "markings",
+      "draggable": false,
+      "note": "胶带位置与长度依据可见部分近似；未添加新的工作区边框。",
+      "parent": null,
+      "estimated": true,
+      "bounds": [
+        [
+          -1.2799999713897705,
+          0.007000000216066837,
+          -0.7200000286102295
+        ],
+        [
+          1.7699999809265137,
+          0.010499999858438969,
+          3.1616437435150146
+        ]
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Paint warm white",
+      "color": [
+        0.84,
+        0.83,
+        0.79
+      ],
+      "roughness": 0.93,
+      "metallic": 0,
+      "texture": null
+    },
+    {
+      "name": "Blind ivory",
+      "color": [
+        0.9,
+        0.885,
+        0.835
+      ],
+      "roughness": 0.9,
+      "metallic": 0,
+      "texture": null
+    },
+    {
+      "name": "Ceiling",
+      "color": [
+        0.79,
+        0.79,
+        0.76
+      ],
+      "roughness": 0.9,
+      "metallic": 0,
+      "texture": null
+    },
+    {
+      "name": "Dark trim",
+      "color": [
+        0.11,
+        0.125,
+        0.13
+      ],
+      "roughness": 0.65,
+      "metallic": 0,
+      "texture": null
+    },
+    {
+      "name": "Glass board",
+      "color": [
+        0.16,
+        0.185,
+        0.19
+      ],
+      "roughness": 0.5,
+      "metallic": 0,
+      "texture": null
+    },
+    {
+      "name": "Silver",
+      "color": [
+        0.51,
+        0.55,
+        0.56
+      ],
+      "roughness": 0.35,
+      "metallic": 0.7,
+      "texture": null
+    },
+    {
+      "name": "Tablecloth",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.97,
+      "metallic": 0,
+      "texture": "cloth.jpg"
+    },
+    {
+      "name": "Partition",
+      "color": [
+        0.57,
+        0.545,
+        0.563
+      ],
+      "roughness": 0.96,
+      "metallic": 0,
+      "texture": null
+    },
+    {
+      "name": "Black rubber",
+      "color": [
+        0.028,
+        0.033,
+        0.036
+      ],
+      "roughness": 0.87,
+      "metallic": 0,
+      "texture": null
+    },
+    {
+      "name": "Wood",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.83,
+      "metallic": 0,
+      "texture": "wood_floor.jpg"
+    },
+    {
+      "name": "Paper",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.95,
+      "metallic": 0,
+      "texture": "paper.jpg"
+    },
+    {
+      "name": "Bag front",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.95,
+      "metallic": 0,
+      "texture": "bag_front.jpg"
+    },
+    {
+      "name": "White canvas",
+      "color": [
+        0.78,
+        0.765,
+        0.707
+      ],
+      "roughness": 0.97,
+      "metallic": 0,
+      "texture": null
+    },
+    {
+      "name": "Tote label",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.98,
+      "metallic": 0,
+      "texture": "tote_label.jpg"
+    },
+    {
+      "name": "Red canvas",
+      "color": [
+        0.68,
+        0.048,
+        0.055
+      ],
+      "roughness": 0.98,
+      "metallic": 0,
+      "texture": null
+    },
+    {
+      "name": "Blue plastic",
+      "color": [
+        0.055,
+        0.205,
+        0.55
+      ],
+      "roughness": 0.52,
+      "metallic": 0,
+      "texture": null
+    },
+    {
+      "name": "Grey plastic",
+      "color": [
+        0.21,
+        0.26,
+        0.3
+      ],
+      "roughness": 0.6,
+      "metallic": 0,
+      "texture": null
+    },
+    {
+      "name": "White plastic",
+      "color": [
+        0.9,
+        0.883,
+        0.82
+      ],
+      "roughness": 0.69,
+      "metallic": 0,
+      "texture": null
+    },
+    {
+      "name": "Black plastic",
+      "color": [
+        0.035,
+        0.042,
+        0.047
+      ],
+      "roughness": 0.55,
+      "metallic": 0,
+      "texture": null
+    },
+    {
+      "name": "Pink tape",
+      "color": [
+        0.6,
+        0.425,
+        0.414
+      ],
+      "roughness": 0.9,
+      "metallic": 0,
+      "texture": null
+    },
+    {
+      "name": "Hazard tape",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.9,
+      "metallic": 0,
+      "texture": "hazard.jpg"
+    },
+    {
+      "name": "Screen glass",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.18,
+      "metallic": 0.15,
+      "texture": "screen.jpg"
+    },
+    {
+      "name": "Lost and Found sign",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.86,
+      "metallic": 0,
+      "texture": "lost_found.jpg"
+    },
+    {
+      "name": "Exit sign",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.62,
+      "metallic": 0,
+      "texture": "exit.jpg"
+    },
+    {
+      "name": "Cardboard",
+      "color": [
+        0.5,
+        0.355,
+        0.195
+      ],
+      "roughness": 0.95,
+      "metallic": 0,
+      "texture": null
+    },
+    {
+      "name": "Tan tape",
+      "color": [
+        0.72,
+        0.645,
+        0.49
+      ],
+      "roughness": 0.98,
+      "metallic": 0,
+      "texture": null
+    },
+    {
+      "name": "Brown part",
+      "color": [
+        0.18,
+        0.108,
+        0.061
+      ],
+      "roughness": 0.65,
+      "metallic": 0,
+      "texture": null
+    },
+    {
+      "name": "Indicator red",
+      "color": [
+        0.9,
+        0.03,
+        0.015
+      ],
+      "roughness": 0.4,
+      "metallic": 0,
+      "texture": null
+    },
+    {
+      "name": "Poster 00",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.93,
+      "metallic": 0,
+      "texture": "poster_00.jpg"
+    },
+    {
+      "name": "Poster 01",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.93,
+      "metallic": 0,
+      "texture": "poster_01.jpg"
+    },
+    {
+      "name": "Poster 02",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.93,
+      "metallic": 0,
+      "texture": "poster_02.jpg"
+    },
+    {
+      "name": "Poster 03",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.93,
+      "metallic": 0,
+      "texture": "poster_03.jpg"
+    },
+    {
+      "name": "Poster 04",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.93,
+      "metallic": 0,
+      "texture": "poster_04.jpg"
+    },
+    {
+      "name": "Poster 05",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.93,
+      "metallic": 0,
+      "texture": "poster_05.jpg"
+    },
+    {
+      "name": "Lamp diffuser",
+      "color": [
+        0.98,
+        0.974,
+        0.91
+      ],
+      "roughness": 0.77,
+      "metallic": 0,
+      "texture": null
+    },
+    {
+      "name": "Tube wood",
+      "color": [
+        0.48,
+        0.365,
+        0.225
+      ],
+      "roughness": 0.94,
+      "metallic": 0,
+      "texture": null
+    }
+  ],
+  "mesh_count": 100,
+  "triangle_count": 48834,
+  "vertex_count": 38430,
+  "static_collision_mesh_count": 34,
+  "physics_runtime_validated": false,
+  "limitations": [
+    "No calibrated intrinsics, depth, camera poses or real measured lengths were supplied.",
+    "Rear/hidden surfaces and small clutter are approximate.",
+    "Partial model boundaries are capture extent, not real room dimensions.",
+    "No articulated robot; no human geometry.",
+    "No cloth/cable dynamics; no calibrated rigid-body targets.",
+    "Web viewer is not a physics simulation.",
+    "USD authored with static collision meshes; actual Isaac Sim execution has not been tested."
+  ]
+}

@@ -1,0 +1,1855 @@
+{
+  "snapshot_date": "2026-10-26",
+  "files": [
+    {
+      "path": "vlfm/.gitignore",
+      "bytes": 2327,
+      "sha256": "b2d2727ada1d5a89ff79eb05c7ae0ba6b0fa75248799b1fc3fc40804717912cf"
+    },
+    {
+      "path": "vlfm/.pre-commit-config.yaml",
+      "bytes": 2842,
+      "sha256": "47622ef14e1bbdc8f21ef0a2506e6c9275ae8367c42e338fda839eb07527d943"
+    },
+    {
+      "path": "vlfm/LICENSE",
+      "bytes": 1094,
+      "sha256": "4621fb9cb10d4e809e90d2fe7ea14df74a98ce0473746a8c73bdfc8a8e79150b"
+    },
+    {
+      "path": "vlfm/MULTI_PERSON_SEARCH.md",
+      "bytes": 2942,
+      "sha256": "470c4539e75e29f7526356af22519f691ba4f3e0f169edb65450e83d2c5658b8"
+    },
+    {
+      "path": "vlfm/PERSON_SEARCH.md",
+      "bytes": 7148,
+      "sha256": "59b5bf78ff5a84901a2ae5e53fb7393b4d31448f2aff0f7e3893240a48fc2ba9"
+    },
+    {
+      "path": "vlfm/pyproject.toml",
+      "bytes": 3504,
+      "sha256": "39f42c327333ee929ff9eb359d65518ef090a6a6281447237c4eba60a067210f"
+    },
+    {
+      "path": "vlfm/README.md",
+      "bytes": 7396,
+      "sha256": "8daa0cd38088332d1a72eade52c11f9015f1301d92b5d5ef91c966301a326d2c"
+    },
+    {
+      "path": "vlfm/REPRODUCTION_STATUS.md",
+      "bytes": 4357,
+      "sha256": "984e7388d3a664417d4f59627ed890e6721254cfc9ed939fdc668bbe2387636f"
+    },
+    {
+      "path": "vlfm/setup.py",
+      "bytes": 93,
+      "sha256": "9251d37464726c0fca01f6d1810361f27cdea3d4e6be4b9d865d8e280f9c7665"
+    },
+    {
+      "path": "vlfm/.github/workflows/docker.yml",
+      "bytes": 2448,
+      "sha256": "2850a53e275263dd5c4914003717b026f823a022bcf7575589c43f28d43b9ab9"
+    },
+    {
+      "path": "vlfm/.github/workflows/pre_commit.yml",
+      "bytes": 383,
+      "sha256": "c69b4a5e4547c028daef961b414102cf3e09f3d4f134da4a86647321f1f7aded"
+    },
+    {
+      "path": "vlfm/.github/workflows/test.yml",
+      "bytes": 539,
+      "sha256": "d451251150c94ee9f4030af61445908ae2ba84aa461789ff6174c69eaf81a895"
+    },
+    {
+      "path": "vlfm/config/experiments/reality.yaml",
+      "bytes": 758,
+      "sha256": "88108287d48b4125abf96e6dfaab7dc0904b90fecfea9ca080c2fc863fe0fa01"
+    },
+    {
+      "path": "vlfm/config/experiments/ver_pointnav.yaml",
+      "bytes": 2089,
+      "sha256": "af4800f27eaee9d9ba2480a0a901eeca4418dc62682d9efb16510add4f982134"
+    },
+    {
+      "path": "vlfm/config/experiments/vlfm_objectnav_hm3d.yaml",
+      "bytes": 2357,
+      "sha256": "1fd242682ecfb21f816d072bd24d4e174ecdbc53c407a9ef466ece17e1e24f3c"
+    },
+    {
+      "path": "vlfm/config/tasks/pointnav_depth_hm3d.yaml",
+      "bytes": 705,
+      "sha256": "519aca9c5ccdaec2b70d951f1e3aa57f35453abaf209e213e5ba7a2d8a25a74f"
+    },
+    {
+      "path": "vlfm/data/person_search/LICENSE-CesiumMan.md",
+      "bytes": 860,
+      "sha256": "aea4463f0e423aa37464eb61b2e5015595c430447356145400d3dc2a4579139f"
+    },
+    {
+      "path": "vlfm/data/person_search/README.md",
+      "bytes": 696,
+      "sha256": "7237bd26ab55c244e0258db7c4f4c414d142599795209a991a4246d946258762"
+    },
+    {
+      "path": "vlfm/data/person_search/rocketbox/conversion.json",
+      "bytes": 926,
+      "sha256": "d2a3b94b1c5937fcb3127d9485ea4412732e58ab4bc81f009fd34885b38d2f54"
+    },
+    {
+      "path": "vlfm/data/person_search/rocketbox/LICENSE.md",
+      "bytes": 1066,
+      "sha256": "17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352"
+    },
+    {
+      "path": "vlfm/data/person_search/rocketbox/README.md",
+      "bytes": 2417,
+      "sha256": "3299e96e5df8306909da11437cc0f71821bcd6361de7ae934d6ef06ac0e1b4d9"
+    },
+    {
+      "path": "vlfm/data/person_search/rocketbox/poses/conversion_lying.json",
+      "bytes": 1241,
+      "sha256": "e1fd2b62cd9966b97c12892e43fff1b4436492bf05834d4febe2451be73ef848"
+    },
+    {
+      "path": "vlfm/data/person_search/rocketbox/poses/conversion_seated.json",
+      "bytes": 1242,
+      "sha256": "bf9c8141916b9d104dc5a81bf36f73decc00ab95eb78bd42b51c3b6f236ac3b1"
+    },
+    {
+      "path": "vlfm/docker/Dockerfile",
+      "bytes": 1437,
+      "sha256": "beb66b2e9a43a021b4600a47269a90af58f6cd6e48d8ae29e9595ebf3ed55842"
+    },
+    {
+      "path": "vlfm/results/val_mini_smoke_2026-08-20.txt",
+      "bytes": 754,
+      "sha256": "bd3b8c299b8eb2071eadb52f4ba04406d8ea004502a86a8ca17f8b36d04b3bce"
+    },
+    {
+      "path": "vlfm/results/multi_person_search/prepare_01/scene_setup.json",
+      "bytes": 2055,
+      "sha256": "0ede24c635a47f64155d8c5d7b12b3d1078e943b11c29a08ec4db7afec4254c9"
+    },
+    {
+      "path": "vlfm/results/multi_person_search/prepare_02/detector_check.json",
+      "bytes": 582,
+      "sha256": "f241254386854b5086e0d2b3b770eff7fa34d679e7df81319b8d98d49dbc3e9f"
+    },
+    {
+      "path": "vlfm/results/multi_person_search/prepare_02/scene_setup.json",
+      "bytes": 2055,
+      "sha256": "0ede24c635a47f64155d8c5d7b12b3d1078e943b11c29a08ec4db7afec4254c9"
+    },
+    {
+      "path": "vlfm/results/multi_person_search/run_01/scene_setup.json",
+      "bytes": 2055,
+      "sha256": "0ede24c635a47f64155d8c5d7b12b3d1078e943b11c29a08ec4db7afec4254c9"
+    },
+    {
+      "path": "vlfm/results/multi_person_search/run_02/scene_setup.json",
+      "bytes": 2055,
+      "sha256": "0ede24c635a47f64155d8c5d7b12b3d1078e943b11c29a08ec4db7afec4254c9"
+    },
+    {
+      "path": "vlfm/results/multi_person_search/run_03/metrics.json",
+      "bytes": 1792,
+      "sha256": "fa83816d7a0168faaa2a95187d5e19709bc0eb1f39b6b8384138d399b46d0845"
+    },
+    {
+      "path": "vlfm/results/multi_person_search/run_03/scene_setup.json",
+      "bytes": 2055,
+      "sha256": "0ede24c635a47f64155d8c5d7b12b3d1078e943b11c29a08ec4db7afec4254c9"
+    },
+    {
+      "path": "vlfm/results/multi_person_search/run_03/trajectory.json",
+      "bytes": 302103,
+      "sha256": "c226f6baac6ee6f31ce11214e933ca497102c485db31ed1601a21eebef78374e"
+    },
+    {
+      "path": "vlfm/results/multi_person_search/run_04/metrics.json",
+      "bytes": 1791,
+      "sha256": "d3cf041f00e723e126653fd1501a7590b0a0bd6a87f310914a6d6301d73cdaa7"
+    },
+    {
+      "path": "vlfm/results/multi_person_search/run_04/scene_setup.json",
+      "bytes": 2055,
+      "sha256": "0ede24c635a47f64155d8c5d7b12b3d1078e943b11c29a08ec4db7afec4254c9"
+    },
+    {
+      "path": "vlfm/results/multi_person_search/run_04/trajectory.json",
+      "bytes": 402044,
+      "sha256": "c62e838201c0780fae13a082f73d95de0189384d09e1723e9d0b28dd88b3f51d"
+    },
+    {
+      "path": "vlfm/results/person_search/scene_setup.json",
+      "bytes": 583,
+      "sha256": "5c58f4f0003cb572ebb22373b299afc971e7640d4758108a3b66b279cd81a03c"
+    },
+    {
+      "path": "vlfm/results/person_search/internnav_iplanner_run_01/scene_setup.json",
+      "bytes": 834,
+      "sha256": "b9a3b4b52a66b916e417b39cbb35c1df39778ad68f538473c0645bcead7a676a"
+    },
+    {
+      "path": "vlfm/results/person_search/internnav_iplanner_run_02/metrics.json",
+      "bytes": 779,
+      "sha256": "b109bb8f0ab2e787e871c77ab973cd3c15ea1728701788ec9e6ed039438b9109"
+    },
+    {
+      "path": "vlfm/results/person_search/internnav_iplanner_run_02/scene_setup.json",
+      "bytes": 834,
+      "sha256": "b9a3b4b52a66b916e417b39cbb35c1df39778ad68f538473c0645bcead7a676a"
+    },
+    {
+      "path": "vlfm/results/person_search/internnav_iplanner_run_02/trajectory.json",
+      "bytes": 935564,
+      "sha256": "84df2cdca71dd0b77447e8a56a1a29c4a5a0e704dd8213ef509c27a06e1e8b0b"
+    },
+    {
+      "path": "vlfm/results/person_search/internnav_iplanner_run_03/scene_setup.json",
+      "bytes": 834,
+      "sha256": "b9a3b4b52a66b916e417b39cbb35c1df39778ad68f538473c0645bcead7a676a"
+    },
+    {
+      "path": "vlfm/results/person_search/internnav_iplanner_run_04/scene_setup.json",
+      "bytes": 834,
+      "sha256": "b9a3b4b52a66b916e417b39cbb35c1df39778ad68f538473c0645bcead7a676a"
+    },
+    {
+      "path": "vlfm/results/person_search/internnav_iplanner_run_05/metrics.json",
+      "bytes": 770,
+      "sha256": "9e7be8cfe2b19465c4e3d5d0ebd9ab6bcef0f05aa9f53b556f3af2e03a5583f6"
+    },
+    {
+      "path": "vlfm/results/person_search/internnav_iplanner_run_05/scene_setup.json",
+      "bytes": 834,
+      "sha256": "b9a3b4b52a66b916e417b39cbb35c1df39778ad68f538473c0645bcead7a676a"
+    },
+    {
+      "path": "vlfm/results/person_search/internnav_iplanner_run_05/trajectory.json",
+      "bytes": 296925,
+      "sha256": "b59c532785220599b8cadbd5ced639ce56d0f84a23381e8ce815ec7c4a6bb457"
+    },
+    {
+      "path": "vlfm/results/person_search/rocketbox_prepare_01/scene_setup.json",
+      "bytes": 805,
+      "sha256": "ff471a9d47d563d348eb17039f039de92bccf9070bd6ec4f95b6d754e386e5d9"
+    },
+    {
+      "path": "vlfm/results/person_search/rocketbox_prepare_02/scene_setup.json",
+      "bytes": 805,
+      "sha256": "a69e508cffd7c8eb5f5ea6200e5146b9e391019306b686d12b9c3857221672ac"
+    },
+    {
+      "path": "vlfm/results/person_search/rocketbox_run_01/metrics.json",
+      "bytes": 748,
+      "sha256": "e2a6a004c8997b30474840b809cd2d3b6ebed79d0e7f08eca0077016afbb4b8f"
+    },
+    {
+      "path": "vlfm/results/person_search/rocketbox_run_01/scene_setup.json",
+      "bytes": 834,
+      "sha256": "b9a3b4b52a66b916e417b39cbb35c1df39778ad68f538473c0645bcead7a676a"
+    },
+    {
+      "path": "vlfm/results/person_search/rocketbox_run_01/trajectory.json",
+      "bytes": 32228,
+      "sha256": "dbd41f5884996b36a06c6056ebdb2866bda960dba531b5843a235c35ff7202bd"
+    },
+    {
+      "path": "vlfm/results/person_search/run_01/scene_setup.json",
+      "bytes": 583,
+      "sha256": "5c58f4f0003cb572ebb22373b299afc971e7640d4758108a3b66b279cd81a03c"
+    },
+    {
+      "path": "vlfm/results/person_search/run_02/metrics.json",
+      "bytes": 639,
+      "sha256": "cf07924858ca056adff9dddb24d36953dace44306bd9271fe4a234e1a6869e74"
+    },
+    {
+      "path": "vlfm/results/person_search/run_02/scene_setup.json",
+      "bytes": 583,
+      "sha256": "5c58f4f0003cb572ebb22373b299afc971e7640d4758108a3b66b279cd81a03c"
+    },
+    {
+      "path": "vlfm/results/person_search/run_02/trajectory.json",
+      "bytes": 22980,
+      "sha256": "a73f6a3e2e4eda623123d0084d78713e2aac49ca8a29d9691082d2fe1fc5d164"
+    },
+    {
+      "path": "vlfm/results/person_search/run_03/metrics.json",
+      "bytes": 743,
+      "sha256": "52cb4384dffaae7fd3e324fc929f58dd5f18b5a559cb120a25b521a0eea6a7dc"
+    },
+    {
+      "path": "vlfm/results/person_search/run_03/scene_setup.json",
+      "bytes": 583,
+      "sha256": "5c58f4f0003cb572ebb22373b299afc971e7640d4758108a3b66b279cd81a03c"
+    },
+    {
+      "path": "vlfm/results/person_search/run_03/trajectory.json",
+      "bytes": 33112,
+      "sha256": "e9af0bfeb61698532cb0c29a2c5da99a67bfdc7361b636f57f47787c301bf7a9"
+    },
+    {
+      "path": "vlfm/scripts/check_pose_detector.py",
+      "bytes": 1088,
+      "sha256": "68569b1e36922a987aa35e166cbd9f0a50fc8b2692676467452557b3d07590a4"
+    },
+    {
+      "path": "vlfm/scripts/check_reproduction_assets.py",
+      "bytes": 2006,
+      "sha256": "0eeb662b33624392fa73890c1ed582afe9f713e9c6b4f85873232a8e99a0b6ec"
+    },
+    {
+      "path": "vlfm/scripts/convert_rocketbox.py",
+      "bytes": 12566,
+      "sha256": "b5b485442a6edb0f37b4dcb738f214ec4aa80366efba0ab29dd17f5ed07fd669"
+    },
+    {
+      "path": "vlfm/scripts/eval_dummy_policy.sh",
+      "bytes": 394,
+      "sha256": "125970f20428fa83cc51559ba62f890a550f9a7bb2ef4d3a7ad801e7c05fcf79"
+    },
+    {
+      "path": "vlfm/scripts/eval_itm_policy.sh",
+      "bytes": 663,
+      "sha256": "62f673d859298853e106dc46b4e37ac8852949416b182576197b79a57db87094"
+    },
+    {
+      "path": "vlfm/scripts/eval_oracle_fbe_policy.sh",
+      "bytes": 539,
+      "sha256": "4315e7fd9488cf5fa19499674f280c43236dc8934ce03ceb62e895bb6f049d41"
+    },
+    {
+      "path": "vlfm/scripts/habitat_iplanner_adapter.py",
+      "bytes": 5861,
+      "sha256": "569fbc8ac4a07cfa31364f18170b1156d02f53f0c5804c3cc94f2b79fde06daa"
+    },
+    {
+      "path": "vlfm/scripts/launch_isaac_vlm_servers.sh",
+      "bytes": 1347,
+      "sha256": "06d74e8a000fa82c47dc574acbd94757715c198853bd2671654636f45e9b8e35"
+    },
+    {
+      "path": "vlfm/scripts/launch_vlm_servers.sh",
+      "bytes": 1893,
+      "sha256": "8f592403772d3801f33d710a38bb803320bae7b69a555228a0d2cfb26d6560f5"
+    },
+    {
+      "path": "vlfm/scripts/multi_person_search_demo.py",
+      "bytes": 24907,
+      "sha256": "b6f3e3761b42d73ceec2ae03fba42fd2acdcbc456452d42feab98482c68a2536"
+    },
+    {
+      "path": "vlfm/scripts/parse_jsons.py",
+      "bytes": 6003,
+      "sha256": "54aff51123bd2db9e75ad7f2c5dd7b0fca23f0a40b7925ea0f450e38dc6be7a3"
+    },
+    {
+      "path": "vlfm/scripts/person_search_demo.py",
+      "bytes": 20324,
+      "sha256": "752c4acd6e351486c6795d719d07d2d5c53318c3386bf213764731ecb8c779cf"
+    },
+    {
+      "path": "vlfm/scripts/run_isaac_vlfm_server.py",
+      "bytes": 11832,
+      "sha256": "d4e303b32a9192eb31e0608fa40c039ac4511c643af34e6c89b0db1ad7c9a8f3"
+    },
+    {
+      "path": "vlfm/scripts/run_multi_person_search_managed.py",
+      "bytes": 3724,
+      "sha256": "9ed64ffae165d5d9321f565d87b71b077bf28ce46bd221b921c910da70f0798f"
+    },
+    {
+      "path": "vlfm/scripts/run_multi_person_search_wsl.sh",
+      "bytes": 314,
+      "sha256": "577dd696b735dc461cf129e8099f5ff303a27ba9dc577beb8af12a2f6bfe140f"
+    },
+    {
+      "path": "vlfm/scripts/run_person_search_managed.py",
+      "bytes": 4485,
+      "sha256": "a820f7ebf1e5201e5297079995653c320ee6a1d207bc7790150d69654bdaca84"
+    },
+    {
+      "path": "vlfm/scripts/run_person_search_wsl.sh",
+      "bytes": 309,
+      "sha256": "37fe863157593f1e916b73271d90e23cf55e84f67c4664392f3e69e9a4b8f41f"
+    },
+    {
+      "path": "vlfm/scripts/run_val_mini_video_wsl.sh",
+      "bytes": 314,
+      "sha256": "52bbc747d217e97b0ff2af7aebe5eb95799a60cd2c4cb37be202345764d49cb0"
+    },
+    {
+      "path": "vlfm/scripts/run_val_mini_wsl.sh",
+      "bytes": 918,
+      "sha256": "afb069ccb4141b9ff6bc6c854208cae116e4a8762abee2c34e68d79aa7462d0e"
+    },
+    {
+      "path": "vlfm/scripts/setup_wsl_rtx5060.sh",
+      "bytes": 3295,
+      "sha256": "d9c1ba09a625d7f50143ebfad15ac6ab53e18bfd5612cd72a7b131bc124a29f7"
+    },
+    {
+      "path": "vlfm/scripts/smoke_test_vlm_services.py",
+      "bytes": 1097,
+      "sha256": "2bc77c1db1d7278b6d038f449489b1ff9262ecc2eadd42b978cb9ab530621bf9"
+    },
+    {
+      "path": "vlfm/scripts/verify_multi_person_search.py",
+      "bytes": 4697,
+      "sha256": "c3c2093e3608e32cc8891d054fb38eb0a147defb888fb3e9156df1c4b616d914"
+    },
+    {
+      "path": "vlfm/scripts/verify_person_pose_assets.py",
+      "bytes": 1685,
+      "sha256": "2d7c39fffd08544c98fd6d5e9ece87b51e4ad31fea3323d8482bcde0bad375b2"
+    },
+    {
+      "path": "vlfm/scripts/verify_person_search.py",
+      "bytes": 3763,
+      "sha256": "ba7b87564529ab3aed11db7ab558ca97bb865abfb47ff5f959c4db21b5b03f12"
+    },
+    {
+      "path": "vlfm/test/test_setup.py",
+      "bytes": 611,
+      "sha256": "0e68169dd9222b5157d214a0658d3793c99770c38f65c2c62cedb1e8fcb42c4d"
+    },
+    {
+      "path": "vlfm/test/test_visualization.py",
+      "bytes": 742,
+      "sha256": "8738d3c95dd78087f6ae7f8c3f37eeedf2e59b09fd800502fbb72dd83e999986"
+    },
+    {
+      "path": "vlfm/vlfm/run.py",
+      "bytes": 2294,
+      "sha256": "1f67668a863128bfb92983aa38b2af62bed1fbf52b98992b52c63fcb9f5056b0"
+    },
+    {
+      "path": "vlfm/vlfm/__init__.py",
+      "bytes": 76,
+      "sha256": "6208bd69b990e70bbf06cd5c5409044c8a2a7c16521fe81f1115e3969a040c9c"
+    },
+    {
+      "path": "vlfm/vlfm/mapping/base_map.py",
+      "bytes": 2133,
+      "sha256": "4511ed12bebf6c28ac4e337b8d80435bbb1f9ca51cfdc5c527b62cb9d67c3600"
+    },
+    {
+      "path": "vlfm/vlfm/mapping/frontier_map.py",
+      "bytes": 2944,
+      "sha256": "78e949d652e6761adb55d23a07593a6d4068332e9b58c1a4e07478668b270193"
+    },
+    {
+      "path": "vlfm/vlfm/mapping/object_point_cloud_map.py",
+      "bytes": 11668,
+      "sha256": "ec99122d1f8e7b8314f15f769d640db4cae13a0630a0182e4949590c058628dd"
+    },
+    {
+      "path": "vlfm/vlfm/mapping/obstacle_map.py",
+      "bytes": 8286,
+      "sha256": "7f3263105d11f0c693a0cfad66b32e444436760b5cca15b332cb0a852b11c85e"
+    },
+    {
+      "path": "vlfm/vlfm/mapping/traj_visualizer.py",
+      "bytes": 4059,
+      "sha256": "019d6e4d44acf93d80285c539fbb2c990a01abdee2b534b017443d4bdd9e965d"
+    },
+    {
+      "path": "vlfm/vlfm/mapping/value_map.py",
+      "bytes": 21255,
+      "sha256": "ed4768d38df0659fdced2059c134d8890d36fe2440628498809bd706484a39d2"
+    },
+    {
+      "path": "vlfm/vlfm/measurements/traveled_stairs.py",
+      "bytes": 1626,
+      "sha256": "2337f1eb29c684afd1ee110221ae446c7fbf97274d444261a56aa84c0cdb5af4"
+    },
+    {
+      "path": "vlfm/vlfm/obs_transformers/resize.py",
+      "bytes": 3608,
+      "sha256": "bc81783ec29cdfce61e89440371f0c6e32bea7cb83dc8490de6996edfbd4fa45"
+    },
+    {
+      "path": "vlfm/vlfm/obs_transformers/utils.py",
+      "bytes": 1433,
+      "sha256": "7961826b4e152270d846113101fac54ee471be3efb9bcdcd7c7f92a20a6e21ca"
+    },
+    {
+      "path": "vlfm/vlfm/policy/action_replay_policy.py",
+      "bytes": 6233,
+      "sha256": "09c05da728a5c2bae55afacad74320603ee0cd69bcfc90bd55772ccc99d2f4e2"
+    },
+    {
+      "path": "vlfm/vlfm/policy/base_objectnav_policy.py",
+      "bytes": 16780,
+      "sha256": "548f9b31f0a84c8a041f298dbefd7af4c227ec751e85a45bbc1d2ea477dea500"
+    },
+    {
+      "path": "vlfm/vlfm/policy/base_policy.py",
+      "bytes": 2028,
+      "sha256": "035bf4fdab308827d08eb6e252b0d9233a9039f7cbe533e3efeb7044c5512a7f"
+    },
+    {
+      "path": "vlfm/vlfm/policy/habitat_policies.py",
+      "bytes": 10354,
+      "sha256": "880d7b3f949185120689d3f0b44d2b38eeb4c8c90b4b7106320c1fd663a538d7"
+    },
+    {
+      "path": "vlfm/vlfm/policy/isaacsim_policy.py",
+      "bytes": 963,
+      "sha256": "33afee784a43030ea6771eca514efe94265211e2061b120a282b3ae4e182c4e8"
+    },
+    {
+      "path": "vlfm/vlfm/policy/itm_policy.py",
+      "bytes": 12425,
+      "sha256": "a910ecb6ff7282c62116de9a33f7a73434833ed06c0cbd47f8e0cb8384e794ea"
+    },
+    {
+      "path": "vlfm/vlfm/policy/reality_policies.py",
+      "bytes": 6760,
+      "sha256": "b76b541111d43ecd3be0a804ac9052ee0577d16a2173522158a83f6ccc2474ed"
+    },
+    {
+      "path": "vlfm/vlfm/policy/__init__.py",
+      "bytes": 76,
+      "sha256": "6208bd69b990e70bbf06cd5c5409044c8a2a7c16521fe81f1115e3969a040c9c"
+    },
+    {
+      "path": "vlfm/vlfm/policy/utils/acyclic_enforcer.py",
+      "bytes": 922,
+      "sha256": "34a345a74038732e97c79b39dee71ccce9dc44e254c73aee931c98aeedee16ad"
+    },
+    {
+      "path": "vlfm/vlfm/policy/utils/pointnav_policy.py",
+      "bytes": 9893,
+      "sha256": "60915683ec5bdbda731228de83a54f3145e58d21b9de2f90a83faa543286d65c"
+    },
+    {
+      "path": "vlfm/vlfm/policy/utils/__init__.py",
+      "bytes": 76,
+      "sha256": "6208bd69b990e70bbf06cd5c5409044c8a2a7c16521fe81f1115e3969a040c9c"
+    },
+    {
+      "path": "vlfm/vlfm/policy/utils/non_habitat_policy/nh_pointnav_policy.py",
+      "bytes": 6898,
+      "sha256": "e58469781e292830a0b6d38c9affa235902a5fb4c39cd9545dbd842e88ff8238"
+    },
+    {
+      "path": "vlfm/vlfm/policy/utils/non_habitat_policy/resnet.py",
+      "bytes": 4489,
+      "sha256": "84e7f166c67716f5cbf73fba1c4bab4543548ced1e7a58d75c6502bd9db3fb69"
+    },
+    {
+      "path": "vlfm/vlfm/policy/utils/non_habitat_policy/rnn_state_encoder.py",
+      "bytes": 8240,
+      "sha256": "212cdec5cd98c2abdea8a2ac384c5dcb839b76991f699b783567034198f182a2"
+    },
+    {
+      "path": "vlfm/vlfm/policy/utils/non_habitat_policy/__init__.py",
+      "bytes": 76,
+      "sha256": "6208bd69b990e70bbf06cd5c5409044c8a2a7c16521fe81f1115e3969a040c9c"
+    },
+    {
+      "path": "vlfm/vlfm/reality/bdsw_nav_env.py",
+      "bytes": 1732,
+      "sha256": "39331b231e61f22acbbb5883a49d685636e1f5690d9591ab35333a18958d2c8c"
+    },
+    {
+      "path": "vlfm/vlfm/reality/objectnav_env.py",
+      "bytes": 11053,
+      "sha256": "032edaba03d31497ad438147c2d24849e5b17244edc93ea4370b187e51c13d99"
+    },
+    {
+      "path": "vlfm/vlfm/reality/pointnav_env.py",
+      "bytes": 5392,
+      "sha256": "d2cbbb0f5e74829f6ebacdc52f1f2d43b419166f2555ee65362efedeb0dc9ac3"
+    },
+    {
+      "path": "vlfm/vlfm/reality/run_bdsw_objnav_env.py",
+      "bytes": 2227,
+      "sha256": "ffdbcfaa25571550ef6e6a2ab9e9e75183a56d3a642afdcda00cd1cdc19c64f1"
+    },
+    {
+      "path": "vlfm/vlfm/reality/robots/base_robot.py",
+      "bytes": 4072,
+      "sha256": "61506ce543b0c40975672da99b26e8c98912e5ac0946a8594dcce5f9d026f425"
+    },
+    {
+      "path": "vlfm/vlfm/reality/robots/bdsw_robot.py",
+      "bytes": 4384,
+      "sha256": "e6fab4f488e8e3b2c76c9ae8b86cf6950ade6c9f9967a2d1e6e80f2db52e40c7"
+    },
+    {
+      "path": "vlfm/vlfm/reality/robots/camera_ids.py",
+      "bytes": 2384,
+      "sha256": "a9f1b8e8b080fb933013518288842582eacaf6eb81e16f7767d2aedd5d0ff7a6"
+    },
+    {
+      "path": "vlfm/vlfm/reality/robots/frame_ids.py",
+      "bytes": 201,
+      "sha256": "426f4de6e8cc0f85eaa12dd18a74d76725929c5b22723fe565ac9b6253c11769"
+    },
+    {
+      "path": "vlfm/vlfm/semexp_env/eval.py",
+      "bytes": 7337,
+      "sha256": "35617fad5b0ed6f79b09e0bb071bbeb8529f6cb31ed55ab9683cf40f1290f888"
+    },
+    {
+      "path": "vlfm/vlfm/semexp_env/objnav_gibson_vlfm.yaml",
+      "bytes": 1152,
+      "sha256": "b2893420993982cf8fae861f5f1fb96e01444ef2ab8f798aeccfc7cdc487ebd8"
+    },
+    {
+      "path": "vlfm/vlfm/utils/episode_stats_logger.py",
+      "bytes": 4239,
+      "sha256": "3d84a9e7293f8ad7b3acb661e72676dcaeb1119644dcccafcf70bab633ba336d"
+    },
+    {
+      "path": "vlfm/vlfm/utils/generate_dummy_policy.py",
+      "bytes": 581,
+      "sha256": "8426a58b502ad837dd3fa3f38960272a29a4657df11e57ce444e57e642e34146"
+    },
+    {
+      "path": "vlfm/vlfm/utils/geometry_utils.py",
+      "bytes": 9387,
+      "sha256": "f00d1fa14c4c3101316cb9417eedb17dd5ffd61268eb94327496d065a5e8366a"
+    },
+    {
+      "path": "vlfm/vlfm/utils/habitat_visualizer.py",
+      "bytes": 10216,
+      "sha256": "40ee48184bee8fab3fccb32b2429de772d03fd05052137d07da9e1469d0bd7a7"
+    },
+    {
+      "path": "vlfm/vlfm/utils/img_utils.py",
+      "bytes": 13676,
+      "sha256": "795554d0426d102663260539b3921cd00c3dc4f12e1df57e809b858bfeae49ee"
+    },
+    {
+      "path": "vlfm/vlfm/utils/log_saver.py",
+      "bytes": 1485,
+      "sha256": "f1a25416f48e5a3dd0414d48f4dc791f949cd0b99541b5fab1856942342e2ff2"
+    },
+    {
+      "path": "vlfm/vlfm/utils/visualization.py",
+      "bytes": 4123,
+      "sha256": "db7c5548053b65f8fd0133fdd7b4b4fce6f6beb41d1570d32b1abc43724cf9d9"
+    },
+    {
+      "path": "vlfm/vlfm/utils/vlfm_trainer.py",
+      "bytes": 15156,
+      "sha256": "7fdd586c347f11092fa41111e5999a5c0c6d509c3e2077a08c121da9a99c129e"
+    },
+    {
+      "path": "vlfm/vlfm/vlm/blip2.py",
+      "bytes": 2860,
+      "sha256": "bf296fa51f0115d6fda0c664b04dff1530680fe1169c358fbc262636e7c5ec17"
+    },
+    {
+      "path": "vlfm/vlfm/vlm/blip2itm.py",
+      "bytes": 2659,
+      "sha256": "fd3c3243765547da49eeec68cedfed545614ffb14950a22bfdf72bd468c23d6d"
+    },
+    {
+      "path": "vlfm/vlfm/vlm/classes.txt",
+      "bytes": 139,
+      "sha256": "91b59f45107541c2a9640cb263e2be4a34fecd19b92627a6b490a01c3a1a3ec6"
+    },
+    {
+      "path": "vlfm/vlfm/vlm/coco_classes.py",
+      "bytes": 1277,
+      "sha256": "a2a026bf8b3d68972ffa1f3d492ccaab5ff4422845bd675b0ab8e5d65fbfe016"
+    },
+    {
+      "path": "vlfm/vlfm/vlm/detections.py",
+      "bytes": 8420,
+      "sha256": "20eb860864a20396b300eb61a0738f4da144095e9288b4d977d6a7b02c732d09"
+    },
+    {
+      "path": "vlfm/vlfm/vlm/fiber.py",
+      "bytes": 3606,
+      "sha256": "6e739e25292a460b6e3f1fb95b06f51b7cf7626d235aee02f2ee59ede213b101"
+    },
+    {
+      "path": "vlfm/vlfm/vlm/grounding_dino.py",
+      "bytes": 3945,
+      "sha256": "2b55c23cfae52aa9aa89a1ce180897c475e62d5436a3dac51d8f92fa98420747"
+    },
+    {
+      "path": "vlfm/vlfm/vlm/sam.py",
+      "bytes": 2959,
+      "sha256": "50ddf28f2ad0f37a1dee7319d2df115f32eeec24fec1f35cce9a8025d2031d6c"
+    },
+    {
+      "path": "vlfm/vlfm/vlm/server_wrapper.py",
+      "bytes": 4997,
+      "sha256": "519b3680ba6d34d27dccdcc17544884e195d2b6bfd5b01357c6a39096d2a8e2b"
+    },
+    {
+      "path": "vlfm/vlfm/vlm/yolov7.py",
+      "bytes": 5261,
+      "sha256": "ee4dacce1f16080afd33688d00fc40bd60c7fb948f2a7ce8f5be7a04743a8080"
+    },
+    {
+      "path": "vlfm/vlfm/vlm/__init__.py",
+      "bytes": 76,
+      "sha256": "6208bd69b990e70bbf06cd5c5409044c8a2a7c16521fe81f1115e3969a040c9c"
+    },
+    {
+      "path": "isaacsim/a2d_verification.json",
+      "bytes": 1486,
+      "sha256": "7905257f183b4ec20952ce0e625f5e991ff58b2d021fc5d70033a8f69104eef4"
+    },
+    {
+      "path": "isaacsim/create_a2d_scene.py",
+      "bytes": 2333,
+      "sha256": "3721b010d974b77d55653e5967473949eec47adec06f4a81411923b284f2c0ad"
+    },
+    {
+      "path": "isaacsim/create_jetbot_scene.py",
+      "bytes": 3272,
+      "sha256": "dac7f711461237a2a1b70c5db28cc113ec7a50837e39779496471e155a17ad82"
+    },
+    {
+      "path": "isaacsim/galaxea_r1pro_verification.json",
+      "bytes": 4025,
+      "sha256": "2b9f27a78f595041b51a0e1878b17c58fdf4116507878fbf53f68400f8004162"
+    },
+    {
+      "path": "isaacsim/import_galaxea_r1pro.bat",
+      "bytes": 279,
+      "sha256": "0865af6178eb6216a504d55637961e37d843c332666fc9b8214419b74211ddf3"
+    },
+    {
+      "path": "isaacsim/import_galaxea_r1pro.py",
+      "bytes": 6819,
+      "sha256": "55979fe60b89e0c9349fd43ab8fa7bac6e091e0c8c06df1277d3708065ed6af2"
+    },
+    {
+      "path": "isaacsim/internnav_iplanner.py",
+      "bytes": 5494,
+      "sha256": "342f7ff608c0810753759f53414782a6d79ba55c83c3f75516eed22ed578ef93"
+    },
+    {
+      "path": "isaacsim/jetbot_scene_verification.json",
+      "bytes": 409,
+      "sha256": "1ed008d12f1a43fac5e533c3b131b0b1b2dbc9d218cb58e169f55a6ed11ba786"
+    },
+    {
+      "path": "isaacsim/open_a2d_scene.bat",
+      "bytes": 402,
+      "sha256": "971a90fdfee5d6ba5757a45f1a3a6899a9cf0b25b020c6390d3308d53a00a108"
+    },
+    {
+      "path": "isaacsim/open_galaxea_r1pro_scene.bat",
+      "bytes": 473,
+      "sha256": "2f007012eb959cbd4030e117e1ffdc3234147f306bb222d6c88f566a3ecbda3e"
+    },
+    {
+      "path": "isaacsim/open_jetbot_scene.bat",
+      "bytes": 555,
+      "sha256": "e4f4ed7362e2863303babf259a6caa106d9cb39aad2d9972ea832ad4eb647246"
+    },
+    {
+      "path": "isaacsim/open_robot_lab_with_galaxea.bat",
+      "bytes": 270,
+      "sha256": "04ff12b26b85e794074d7c208f3eee6f89bdef7c159694d02f4dccf61c0e4c18"
+    },
+    {
+      "path": "isaacsim/open_vlfm_dashboard.bat",
+      "bytes": 54,
+      "sha256": "de3656a6172d8e507406469c7c1f88b76c78793d6ec2dcda64e8e3d473a9f328"
+    },
+    {
+      "path": "isaacsim/reactive_avoidance.py",
+      "bytes": 4294,
+      "sha256": "6901c70bb4181ff1e8b771d2c0de27aa84e6d5e223ea36f32dd427e980ac805d"
+    },
+    {
+      "path": "isaacsim/README.md",
+      "bytes": 1647,
+      "sha256": "a3cdfb7a6e6a3e0a0e915c5b4fdda94f0f197346b1f3cde6d6bb0f4554a6aeeb"
+    },
+    {
+      "path": "isaacsim/run_vlfm_jetbot.bat",
+      "bytes": 453,
+      "sha256": "84619a9748c76bf46873d14e2f84ab96b0eebadcf7238037ebe6a0e72ad97343"
+    },
+    {
+      "path": "isaacsim/run_vlfm_jetbot.py",
+      "bytes": 9332,
+      "sha256": "2eb85d23b313b171c3722fa78260ca80eba167d1e453c846b81280aa9545a298"
+    },
+    {
+      "path": "isaacsim/start_internnav_iplanner.bat",
+      "bytes": 299,
+      "sha256": "26664a924cfd75fb7e63ca796e6f6df67089eaac23f4e21940d0300c034833bc"
+    },
+    {
+      "path": "isaacsim/start_vlfm_server.bat",
+      "bytes": 304,
+      "sha256": "350f0b3bb2ac5c308eda852e8628fb74ca8239e69bf3d16b0ca853261e7a2be6"
+    },
+    {
+      "path": "isaacsim/start_vlfm_server_wsl.sh",
+      "bytes": 361,
+      "sha256": "444f2162ef9274c9bdf80d848d6480232c88e1dfe615fd9f7fad70484d4b23ca"
+    },
+    {
+      "path": "isaacsim/verify_internnav_iplanner.py",
+      "bytes": 803,
+      "sha256": "1ca0258f90ffcfaf1a62265d578b6d8a7671b506e1649ef09ea949ef3505b40b"
+    },
+    {
+      "path": "isaacsim/verify_reactive_avoidance.py",
+      "bytes": 1242,
+      "sha256": "6cf26e144a83ff5aef88108343a026fd7fe8a418bcd7dec3b24382178cfe35de"
+    },
+    {
+      "path": "isaacsim/VLFM_ISAAC_INTEGRATION.md",
+      "bytes": 7221,
+      "sha256": "55f21f914be3fbc36e19b5bbcb8b8310b9f6d987829bcdde1cc801705e3b4f98"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/apply_layout_to_usd.py",
+      "bytes": 3608,
+      "sha256": "a1f9c8a226feb9a50ad2732882e65b124637b1eba47394101d1efadd6b380a50"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/grasp_contact_success_report.json",
+      "bytes": 10639,
+      "sha256": "723df0ccb3ca1751f9244d8199561f678da94d36b1e4303e46e6209abfa7cdaf"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/grasp_data_recorder.py",
+      "bytes": 8317,
+      "sha256": "75843586425e1d0b326a2b4c5db681ef02926e60abc39610545592ec70817362"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/grasp_demo_report.json",
+      "bytes": 21,
+      "sha256": "467c4542715141111a2dc44398ff2db87cacf3caac30483d6520710e9d42bf62"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/grasp_demo_robot_description.yaml",
+      "bytes": 1668,
+      "sha256": "9a6c91442e8cb20118eeaf3159bbaec049e73fef76211b591a81e52dfb03c164"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/grasp_demo_robot_description_right.yaml",
+      "bytes": 1459,
+      "sha256": "2d84b7a2e67d12a6b6d2c893f8876dbf6db4fdcd79b354d95210b1fad9a85699"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/grasp_loop_report.json",
+      "bytes": 145,
+      "sha256": "eec3074dca3f26c1f0fd72ddd109fc13dddce29830ae31d6d850aa6331c993ce"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/mcap_to_hdf5.py",
+      "bytes": 4762,
+      "sha256": "c20109e569008ab25dc97c2e05bc82ee7e4e8822520cfc2674d7874b952e42c4"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/open_grasp_demo.bat",
+      "bytes": 249,
+      "sha256": "b36f1fe7f0f6d022222d491c50f3012097f35d5e3221ec4872343873308c1216"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/pause_resume_check.json",
+      "bytes": 89,
+      "sha256": "eda1eec82daf5d380e98d3b9dd0412d4e9861ba34aa1cbfd04d245c58b69a1d3"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/prepare_grasp_demo.py",
+      "bytes": 13518,
+      "sha256": "c26752e9de8c45e7615b1da82dfc90c3bad1db43d4d6ca9513d06f940464b131"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/r1pro_grasp_demo.urdf",
+      "bytes": 46435,
+      "sha256": "133a01819b5ac7d206a766dd5f908a91f4fb55df626bcb8b35349e798d89edae"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/README_使用说明.md",
+      "bytes": 6581,
+      "sha256": "e1d0f34e25622022fe1e36c1b575c316faa6cff7f6338704d551880ef45c84c6"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/run_grasp_data_pipeline.bat",
+      "bytes": 330,
+      "sha256": "0963cf3494e37e2c46c4e78d5e79e2c1b6e38255acb0ce925987e4902be67aea"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/run_grasp_demo.bat",
+      "bytes": 83,
+      "sha256": "0633ca2de186877f14e456008302922aa6a95a40a0acaf6312079e526b11d25e"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/run_r1pro_grasp_demo.py",
+      "bytes": 41963,
+      "sha256": "709cac8c7f89e3a946e4595332b66c948f2a9f3b7a6f8453ce6b2cfabac6da0f"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/scene_manifest.json",
+      "bytes": 21529,
+      "sha256": "15b2092fca160c29f191fdbda334d5b749a90f1247761d420f07f05f9de96475"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/test_fixed_base_urdf_import.py",
+      "bytes": 2682,
+      "sha256": "f3ba00ce7f32cc38e0dde1e38d802176c21b29995066348e873d20c016bab631"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/watch_grasp_demo.bat",
+      "bytes": 94,
+      "sha256": "5678b4eb9df329c04195fbb8c6f65b7eaf7b03404ecedba85be3d939c8964334"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/docs/validation_report.json",
+      "bytes": 1243,
+      "sha256": "75864097a169e7f9ebe86edde2bd25a0efaeb5f8a43b1392fa5a58b3cb1871f7"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/source/assemble_viewer.py",
+      "bytes": 903,
+      "sha256": "ef386eb370eef74d67b6d82baea00c473ed0d2dcec5d2583f57da4c682e176c3"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/source/build_scene.py",
+      "bytes": 39453,
+      "sha256": "eeaa4393d9cd5925a4c305836fc9267a6d0c1b495e852444e7a12ed0556ee585"
+    },
+    {
+      "path": "isaacsim/robot_lab_3d/source/viewer_template.html",
+      "bytes": 49839,
+      "sha256": "96937d1bb625dae1e92991edd41db814647e10e1e0e6a3be622b2e5a6cf7d97b"
+    },
+    {
+      "path": "real2sim_lab/build_room_mesh.py",
+      "bytes": 5388,
+      "sha256": "7697a8bdcb12ddaa4a97bdd857b843e3793ce097016e3c57237685f6edb0385e"
+    },
+    {
+      "path": "real2sim_lab/check_access.py",
+      "bytes": 1730,
+      "sha256": "5490aa7471a7532600207bf0786e6841ba4e41faa9065c177f04032d91e27a5f"
+    },
+    {
+      "path": "real2sim_lab/finalize_room_mesh.py",
+      "bytes": 1813,
+      "sha256": "bb3374408df39b7b82f2f59428c314a85cc5f1c07b8b4a3bb488a6b3f1583bc3"
+    },
+    {
+      "path": "real2sim_lab/package_room_mesh.py",
+      "bytes": 2059,
+      "sha256": "577a57788076fc0e0575961399ecfedcd5c866958e81e912adc70eebf0b134b9"
+    },
+    {
+      "path": "real2sim_lab/package_stage1.py",
+      "bytes": 588,
+      "sha256": "d1fe3962959b6f842a81fa10411d6761a68084842922968d61661a7ae4a2ab8a"
+    },
+    {
+      "path": "real2sim_lab/probe_runtime.py",
+      "bytes": 780,
+      "sha256": "b23ffb990f859800d34c27fe1b2280591747ccbdd936602bb717d7a4614c07d3"
+    },
+    {
+      "path": "real2sim_lab/runtime_report.json",
+      "bytes": 1840,
+      "sha256": "0084e8a51fe58d13f91fbee595aae61b169050ff756bc9bf74c102a9dce59ba4"
+    },
+    {
+      "path": "real2sim_lab/run_demo_segmentation.py",
+      "bytes": 2541,
+      "sha256": "b5473e5f0d3aa9749f67a66904e72fd537b3f51c2cf497fd19976f34f6c734f5"
+    },
+    {
+      "path": "real2sim_lab/sam3_probe.py",
+      "bytes": 517,
+      "sha256": "4b0f2519f35a612764acce34297a13bbefc90a97c17c569e531f9506a1763996"
+    },
+    {
+      "path": "real2sim_lab/sam3_windows_compat.py",
+      "bytes": 701,
+      "sha256": "7579c1ab9dcfa805f4e87a442e900cadf32861ecce45deab7969f8cadc135b2f"
+    },
+    {
+      "path": "real2sim_lab/validate_mesh_blender.py",
+      "bytes": 585,
+      "sha256": "ba5a888702f14240973c06ba86ce1e39453f4b68ed1963005d85c6aa3c79ac07"
+    },
+    {
+      "path": "real2sim_lab/demo_segmentation/README.md",
+      "bytes": 1501,
+      "sha256": "0cc26eda178105b41bc3371d8ac6355a00709db2b9a726c541a76fde6ac22a43"
+    },
+    {
+      "path": "real2sim_lab/demo_segmentation/report.json",
+      "bytes": 614,
+      "sha256": "32203dbee089eecb38c368b1323a35ed92495d7024106330c7ca5c319521fc7e"
+    },
+    {
+      "path": "real2sim_lab/room_mesh/README.md",
+      "bytes": 1399,
+      "sha256": "b954cee209b7bbff683a594e682c95fe58296516334900e5ed5de635f14e6e4f"
+    },
+    {
+      "path": "real2sim_lab/room_mesh/report.json",
+      "bytes": 773,
+      "sha256": "39c98d0be662afbfceaf856a0729104082d38b429e967cd36de716775f5b06ec"
+    },
+    {
+      "path": "cruzr_isaac/pose_bridge.py",
+      "bytes": 3992,
+      "sha256": "a229ae5c0329211b5fd7f7f28a17740d40f5359f4bc7ee31809b8e923925f596"
+    },
+    {
+      "path": "cruzr_isaac/README.md",
+      "bytes": 3713,
+      "sha256": "2c6406c82e6ac73cf3cee734aeaba6367e48c062b4ee1c79a9524e88cfd89772"
+    },
+    {
+      "path": "cruzr_isaac/run_isaac_bridge.py",
+      "bytes": 6176,
+      "sha256": "193872b0d11b981d290d804576a0b2ab5212a151c43baa804d2bf81a2ea6e2f2"
+    },
+    {
+      "path": "cruzr_isaac/run_smoke.bat",
+      "bytes": 200,
+      "sha256": "67ec3f41fec2be047b0a0ba425971913bef993aa51d5deaa3b9c1ae42e2449ad"
+    },
+    {
+      "path": "cruzr_isaac/test_pose_bridge.py",
+      "bytes": 1365,
+      "sha256": "1028a0a579cad4aa323543b2da197ef4af1191fe15ab8dc756244a7b1bca6353"
+    },
+    {
+      "path": "cruzr_isaac/当前进展.md",
+      "bytes": 2044,
+      "sha256": "d4303b1c644d1e53936fff86ca1962370fe7ea94eb4a3e7293e7ccbd994e011e"
+    },
+    {
+      "path": "cruzr_isaac/results/verification.json",
+      "bytes": 374,
+      "sha256": "68d5e2528e17a0e95a97380c921b11dce891039d32bbc116405d09b8b6e1f612"
+    },
+    {
+      "path": "gs_isaac/bootstrap.py",
+      "bytes": 345,
+      "sha256": "95181f9ad7292ba3b2eef133cbfe51de8f206d9fa5a6987f53907866d4c606a8"
+    },
+    {
+      "path": "gs_isaac/check_result.py",
+      "bytes": 465,
+      "sha256": "b0e4069721a66c6fe83897c202bee548d3a9337dde1aa7bf926d22abb8b55a49"
+    },
+    {
+      "path": "gs_isaac/fetch_deps.py",
+      "bytes": 1474,
+      "sha256": "f12f7f1cbb9fd9b51d311396cf365c1c6b6ffb15b5ba280b5330018f21c48517"
+    },
+    {
+      "path": "gs_isaac/fetch_prebuilt.py",
+      "bytes": 941,
+      "sha256": "6ffaa13748e53299841e814b13192ae8b8036ce86f926eedc0574fc42f06c25f"
+    },
+    {
+      "path": "gs_isaac/isaac_adapter.py",
+      "bytes": 2139,
+      "sha256": "f494116b07dc881ce91aa9283b3e7b0b6e7464e9136fb70a7e679798c9f2ec80"
+    },
+    {
+      "path": "gs_isaac/package_results.py",
+      "bytes": 1717,
+      "sha256": "1ded7550c1366323c33689e02d2b8a16f81c4caf7bee7a7e2e16e53f6ed0ef65"
+    },
+    {
+      "path": "gs_isaac/prebuilt_source.json",
+      "bytes": 297,
+      "sha256": "b11c38f706024feb0c36f370553ca180292031bba2ae429001e5608697cf73e2"
+    },
+    {
+      "path": "gs_isaac/probe_renderer.py",
+      "bytes": 1260,
+      "sha256": "341c1073b41c5f30d62f38f5bf4caf798b3df86ad4c02745e4eaadb55968ee09"
+    },
+    {
+      "path": "gs_isaac/README.md",
+      "bytes": 6118,
+      "sha256": "5c035dca31c9b8b1eb5cd6d9dbcd826a215f90e56500579b6d4c671a63a346f5"
+    },
+    {
+      "path": "gs_isaac/render_views.py",
+      "bytes": 1675,
+      "sha256": "fe47995cc96908448cf33fb30ad1ac1386dc0c80cfeb8b3e68a6d8f819f7d567"
+    },
+    {
+      "path": "gs_isaac/run_integration.bat",
+      "bytes": 573,
+      "sha256": "e9de56737fa3ad9fa53e83f5f2fa11e0e6a2f032cdd1a4cebefd3069a137a219"
+    },
+    {
+      "path": "gs_isaac/run_integration.py",
+      "bytes": 6613,
+      "sha256": "5840c8da0f3c367b2218c98d9c1cbebb2b2a99359e7d6704507da21c787f324e"
+    },
+    {
+      "path": "gs_isaac/run_probe.bat",
+      "bytes": 425,
+      "sha256": "848316a1c74fee0e8c0c4c3fc62cf9cbfbeb03d12afc57678d90371a728db336"
+    },
+    {
+      "path": "gs_isaac/run_views.bat",
+      "bytes": 423,
+      "sha256": "fd5013c13fffe1ca46d9df0dcd551617d91c8cace3ea6a418c08fc70569791e1"
+    },
+    {
+      "path": "gs_isaac/results/integration.json",
+      "bytes": 500,
+      "sha256": "42a1db897df0d8aded84c83ff461e0b7f532e61b0adb7c19cfdc648aef9a66c0"
+    },
+    {
+      "path": "gs_isaac/results/live_poses.json",
+      "bytes": 31207,
+      "sha256": "558fed08ae39ee5ce094109b96ccd3c39a1568952811a9b13a4bea06daa114c2"
+    },
+    {
+      "path": "gs_isaac/results/renderer_probe.json",
+      "bytes": 550,
+      "sha256": "a4984267137ccd4f886c219100c7142576748e1f87ec1bb101c96c8ab72d946a"
+    },
+    {
+      "path": "gs_isaac/results/views.json",
+      "bytes": 761,
+      "sha256": "f9fd9b9ed0120d5147dbc6dfae384114f86db2fdd618f6b660d8a81f4551524f"
+    },
+    {
+      "path": "lab_gs/fetch_sfm.py",
+      "bytes": 693,
+      "sha256": "dd64c5cabc18e6bb352964a2f2c7f3463dc87240ce6be3b28c707b6891b43dba"
+    },
+    {
+      "path": "lab_gs/inspect_model.py",
+      "bytes": 364,
+      "sha256": "8fe034ec9483064648a5394b6fa6b17e3ef6a04446404472d170e60d4dfbeb3b"
+    },
+    {
+      "path": "lab_gs/inspect_sfm.py",
+      "bytes": 203,
+      "sha256": "93289b6315d40e77128ca044c5df9c76ead0a3a96a8a24879f688262c1c3010a"
+    },
+    {
+      "path": "lab_gs/package_attempt.py",
+      "bytes": 748,
+      "sha256": "14b3b84d1c71b4a0f735ae9ab0f97f60eab10a3906dfcbf28c61622248bc16f9"
+    },
+    {
+      "path": "lab_gs/README.md",
+      "bytes": 3228,
+      "sha256": "0d3a2e03fde6210a8ac43d2decc06a2b286ab5898cb97053c71a24141fbad2cd"
+    },
+    {
+      "path": "lab_gs/reconstruct_sfm.py",
+      "bytes": 2016,
+      "sha256": "5c0d3fe0993d7af848ba8307b63767b09912f357b376f0de016c6471ab57812a"
+    },
+    {
+      "path": "lab_gs/retry_sfm.py",
+      "bytes": 1289,
+      "sha256": "21915031a945830ea1712df771e1c5a491d993861a9836d7dd1668b8401b8999"
+    },
+    {
+      "path": "lab_gs/run_python.bat",
+      "bytes": 464,
+      "sha256": "2f861b8659a05f39c806c52433fb2721eb9c1603eb91a1216d4e35ee93a65b96"
+    },
+    {
+      "path": "lab_gs/sfm_independent_report.json",
+      "bytes": 518,
+      "sha256": "5e2a556d1fe29fc5dcfd892a1374f4e26af2b1ccf8e88df43e1280bbd57fb156"
+    },
+    {
+      "path": "lab_gs/sfm_report.json",
+      "bytes": 361,
+      "sha256": "5876b19b9244d1db0c7b48f4a3fbaf03b3ab41e7ed3e1e8e9d19f0696f83762b"
+    },
+    {
+      "path": "lab_gs/source_map.json",
+      "bytes": 840,
+      "sha256": "55f327cc9d7448cab28b54c04719bca638f36339de750c031d376b81acf933b5"
+    },
+    {
+      "path": "lab_gs/train_partial.py",
+      "bytes": 6588,
+      "sha256": "b0fdd313213b3266ec5a481dd7c0c5cdc173253410c5914eeff4159066197066"
+    },
+    {
+      "path": "lab_gs/partial_gs/quality_check.json",
+      "bytes": 464,
+      "sha256": "a01350603fd626c050194161a8e3326ea573799ec1ac69cb627f3138a07e2af1"
+    },
+    {
+      "path": "lab_gs/partial_gs/report.json",
+      "bytes": 2461,
+      "sha256": "547fa11c40c058ba872f1f62c6adbda2852ad81ae5e0510ca50455fb301e8483"
+    },
+    {
+      "path": "astra_scene/build_focus.py",
+      "bytes": 7054,
+      "sha256": "0987bf58636b0b144bcfcb162c24f1663e5a3b9de0716862e16e549fbef5f295"
+    },
+    {
+      "path": "astra_scene/build_photo_lab.py",
+      "bytes": 10189,
+      "sha256": "9d2a4b6e45db7bf5fa793583b261698715986ff8abe86775117b4c96632aaa6d"
+    },
+    {
+      "path": "astra_scene/drive_focus_v4_r1pro.py",
+      "bytes": 3847,
+      "sha256": "38ab04d66f7327502fc6fce577746323d06cca83a5c34e9cd823291127814d1f"
+    },
+    {
+      "path": "astra_scene/export_real_ply_usd.py",
+      "bytes": 2262,
+      "sha256": "c37d0cedd2983c9dc79517723d6f96d44eb288976baaa8178d1391ffdd91c1d7"
+    },
+    {
+      "path": "astra_scene/fix_isaac_lighting.py",
+      "bytes": 1647,
+      "sha256": "dc6c252f278eb8ac166a9e57a4a6d7fa1e4feed4fb7a42ddfc5b445a123a36dc"
+    },
+    {
+      "path": "astra_scene/generate_focus_v4_randomization.py",
+      "bytes": 3037,
+      "sha256": "de89ee0e2fee0f7b71e102c5bcaaed7c9c58e49d57b15ed95ece758b5bc01cac"
+    },
+    {
+      "path": "astra_scene/inspect_official_r1pro.py",
+      "bytes": 1091,
+      "sha256": "4c3961b5d977c526318372130eb61ad2fad6d861fc88201181c27c9b3a40fcbd"
+    },
+    {
+      "path": "astra_scene/inspect_real_ply.py",
+      "bytes": 2160,
+      "sha256": "bc61377eafa13879cd14d9e40b0171b54d8dc62495fd9e6b4f889f4edb64a5d1"
+    },
+    {
+      "path": "astra_scene/inspect_robot_blender.py",
+      "bytes": 606,
+      "sha256": "55d23b1edf159ed8b63779593c44bc40bc7d958662237dc5ca7dd43bf37171ae"
+    },
+    {
+      "path": "astra_scene/open_blender.bat",
+      "bytes": 90,
+      "sha256": "b859e2b1671398f28b58f809bc87e22209afb7a2424e68b5a0fdd536643ab7e7"
+    },
+    {
+      "path": "astra_scene/open_focus_blender.bat",
+      "bytes": 120,
+      "sha256": "fd0bcc27cefe1bc9c00f22160aa895a4511e2a2f4ee57bad7151f06327050393"
+    },
+    {
+      "path": "astra_scene/open_focus_isaac.bat",
+      "bytes": 138,
+      "sha256": "b5664d193df516842702cc437490669759d8d5f089956625989c3e5dd1491151"
+    },
+    {
+      "path": "astra_scene/open_focus_v4_isaac.bat",
+      "bytes": 256,
+      "sha256": "efc4a2ff036ae86b832c6e15112dacd04a0a063dd4367dd7ec6c2032cb670164"
+    },
+    {
+      "path": "astra_scene/open_focus_v4_official_r1pro_isaac.bat",
+      "bytes": 270,
+      "sha256": "0d845f02640bd69fef1ebb268ceb9a85e44d579480c985c2c5f0b1959e53eb85"
+    },
+    {
+      "path": "astra_scene/open_focus_v4_r1pro_isaac.bat",
+      "bytes": 261,
+      "sha256": "513cbb758eb84028ca02ad611d1e45847b47973c8e305588b06941d01c0e75ef"
+    },
+    {
+      "path": "astra_scene/open_lab_blender.bat",
+      "bytes": 127,
+      "sha256": "404e25822e2d352ed4099c8a43fec47205361f57a999f3121c4f9e385aba4eca"
+    },
+    {
+      "path": "astra_scene/open_lab_isaac.bat",
+      "bytes": 253,
+      "sha256": "49ae5466c189d372d6408134c070760257fea633f7cb60e850b8c54598dfaf57"
+    },
+    {
+      "path": "astra_scene/open_original_ply_blender.bat",
+      "bytes": 136,
+      "sha256": "f03ff11d0eca4c68136cd21c3a08f096d7bd2f0e47b62678e6439db19bcc2048"
+    },
+    {
+      "path": "astra_scene/open_r1pro_safe_motion_demo.bat",
+      "bytes": 84,
+      "sha256": "ed34567c962e9dab50130fd1a2d407523291e6cacddaabfccaf20fb79dc157d4"
+    },
+    {
+      "path": "astra_scene/open_realistic_blender.bat",
+      "bytes": 125,
+      "sha256": "d7925a3592aa1727ff201b600b1a0c218e5d351cc56a58bfbbd828a3ea420821"
+    },
+    {
+      "path": "astra_scene/open_real_ply_isaac.bat",
+      "bytes": 250,
+      "sha256": "7af68d5ed94c629f68d2d437ae9d83768fcf02892b340d47a789a8ec3f43b171"
+    },
+    {
+      "path": "astra_scene/open_video_v2_blender.bat",
+      "bytes": 139,
+      "sha256": "05b5efad0c2a1217f17c557cc78762f56e341fd679ec6b05f346b9cbff47c4f7"
+    },
+    {
+      "path": "astra_scene/open_video_v2_isaac.bat",
+      "bytes": 262,
+      "sha256": "91ff71add6d7362df186c256417a70b2508ef9efdd6bac48f14f319fde3494f6"
+    },
+    {
+      "path": "astra_scene/r1pro_safe_base_controller.py",
+      "bytes": 8950,
+      "sha256": "9b407107b442278be9383341b69af8cbccf7638048dc35d917980ba393feb431"
+    },
+    {
+      "path": "astra_scene/README.md",
+      "bytes": 1309,
+      "sha256": "bff5a855a7ac0d0483d735e35218e8026f9e3363723cfea4347f2a4e058a252a"
+    },
+    {
+      "path": "astra_scene/render_v4_robot_review.py",
+      "bytes": 1633,
+      "sha256": "ab74dc3b2cf3a4f330c5bb9b27223ab972d2bd52978f3c13bc69275bfb161658"
+    },
+    {
+      "path": "astra_scene/run_r1pro_drive_test.bat",
+      "bytes": 83,
+      "sha256": "fbdebb22fc07830f6bc7553e22c38abaa84a182d791cbab81a1c02395b2b2009"
+    },
+    {
+      "path": "astra_scene/run_r1pro_safe_motion_test.bat",
+      "bytes": 84,
+      "sha256": "65201e8c2f91666466e85f00239f6a08ed396e3d89a66b5258e177359176dcca"
+    },
+    {
+      "path": "astra_scene/verification.json",
+      "bytes": 414,
+      "sha256": "808723fb8a48ac08578bdce95fd58dfd41d639dd41e8bcd9966a89ae553a1312"
+    },
+    {
+      "path": "astra_scene/verify_focus_v4_r1pro.py",
+      "bytes": 2679,
+      "sha256": "724a9dc61d9817d1a9a20ff779e579ec828501006b53e214d6d178f69dca7801"
+    },
+    {
+      "path": "astra_scene/verify_lab_r1pro.py",
+      "bytes": 2753,
+      "sha256": "678d184f82e61976c1e39efb41615ddbd06b586fa55c6afb0638bd4eddf7cc76"
+    },
+    {
+      "path": "astra_scene/第一版使用说明.md",
+      "bytes": 1499,
+      "sha256": "39c5b3592b2822fdf4d88bda5dc7b84940c1f2af4e9a23a1b03493ddaaadb6d2"
+    },
+    {
+      "path": "astra_scene/focus_v3/notes.txt",
+      "bytes": 164,
+      "sha256": "70db947d5dfcba8b002e3de3b83e71e0c20103715381c73c8bfd0f94599c6677"
+    },
+    {
+      "path": "astra_scene/focus_v4/focused_zone_with_r1pro_verification.json",
+      "bytes": 684,
+      "sha256": "ca3ea44a8272b27215529dbd63ffb5081d75df27d3d234cd0e3689e2a80e3129"
+    },
+    {
+      "path": "astra_scene/focus_v4/notes.txt",
+      "bytes": 303,
+      "sha256": "c02c6c0be0579b9cb0b1d505af277426ddb4ecf930c1da9d66d25c8dc792268a"
+    },
+    {
+      "path": "astra_scene/focus_v4/official_r1pro_inspection.json",
+      "bytes": 555,
+      "sha256": "5750e7fa3296aae9380ffb4e2e9fcc7ec80d17bd87dc56f749149dc535f63eb7"
+    },
+    {
+      "path": "astra_scene/focus_v4/r1pro_drive_verification.json",
+      "bytes": 1497,
+      "sha256": "79d3106df202123e461f2ff2223dbbaf55eb0c8241f696fbec523b8f552ff2d2"
+    },
+    {
+      "path": "astra_scene/focus_v4/r1pro_safe_motion_verification.json",
+      "bytes": 4800,
+      "sha256": "93b4dd8041e913dbe722be7a8d36d63325993cefbf6a08f728027343f4936948"
+    },
+    {
+      "path": "astra_scene/focus_v4/R1PRO操作说明.md",
+      "bytes": 2565,
+      "sha256": "1e2336ad70067d492df367316aa5d2156e5fab02b7243bd78ba6518e37acc870"
+    },
+    {
+      "path": "astra_scene/focus_v4/randomized/manifest.json",
+      "bytes": 6092,
+      "sha256": "9f555fa74e210b767666e12cd6be3e4edc713cda900f97a0cc0cccb99534d40a"
+    },
+    {
+      "path": "astra_scene/focus_v4/review_robot/isaac_motion_verification.json",
+      "bytes": 4800,
+      "sha256": "93b4dd8041e913dbe722be7a8d36d63325993cefbf6a08f728027343f4936948"
+    },
+    {
+      "path": "astra_scene/isaac_usd/lab_with_r1pro_verification.json",
+      "bytes": 635,
+      "sha256": "3365ede3ba557f6747ac81e9bd502f3c1faf290119a9499dfaf3cc6c9df6399a"
+    },
+    {
+      "path": "astra_scene/real_ply/inspection.json",
+      "bytes": 457,
+      "sha256": "424b02d356789deefd77421edac6cacb671440e2b26f31064f33a0b6ae680328"
+    },
+    {
+      "path": "astra_scene/video_v2/verification.json",
+      "bytes": 541,
+      "sha256": "24048bec3b226043fec3c75bb7f6d4a5847018198b2aa52b8184983a6260a9be"
+    },
+    {
+      "path": "mira_scene/build_collision_proxies.py",
+      "bytes": 1836,
+      "sha256": "1567b67a46a7409611220c1d1f5ba798cdb0db3e71b813189d367b4e318728eb"
+    },
+    {
+      "path": "mira_scene/build_pytorch3d.py",
+      "bytes": 1622,
+      "sha256": "1546117fdc0d2ce4b0a9b82b728331fb7baa9970e989950bff52be9050c7fc53"
+    },
+    {
+      "path": "mira_scene/build_scoped_rgbd_meshes.py",
+      "bytes": 1413,
+      "sha256": "b14bb7562b858e520f18f684e745ad6efe06383ebec15079dd3576ccc3f78841"
+    },
+    {
+      "path": "mira_scene/check_model_access.py",
+      "bytes": 666,
+      "sha256": "3812cb2a45f439ffaf6d64ee724d94fe59c030b141ea896f97ccf75920c7644d"
+    },
+    {
+      "path": "mira_scene/convert_mesh_ply_to_glb.py",
+      "bytes": 1036,
+      "sha256": "3815a7c4eb341df7ec02b96cabafb5394159e2f46561d728456b677281e16c43"
+    },
+    {
+      "path": "mira_scene/create_manual_segmentation.py",
+      "bytes": 4709,
+      "sha256": "bf1f1dddce5ac5049cf50ededa49907926f9511a30c1b1e211d241b8ffd2ae31"
+    },
+    {
+      "path": "mira_scene/export_depth_preview.py",
+      "bytes": 1278,
+      "sha256": "13502b55a311d42593db012341b696b8bc1577d317e1b57394dfe6ad8fa7692b"
+    },
+    {
+      "path": "mira_scene/export_object_pointclouds.py",
+      "bytes": 2106,
+      "sha256": "1fe6aa37f51744e6d11c4f4ef4b4410480ea3b6c21267ffb0c9d8925b7bbf547"
+    },
+    {
+      "path": "mira_scene/export_relative_depth_tiff.py",
+      "bytes": 643,
+      "sha256": "84031e3407d62b3f0c7b7ed330f295eea7814e0bbb0919ed6916a2fae58cd5f3"
+    },
+    {
+      "path": "mira_scene/export_uncolored_pointcloud.py",
+      "bytes": 1707,
+      "sha256": "60c2c3de20e4f392bc6b19ac0dbc16ca59d3d4dc92a41ce0753262f1f056cc95"
+    },
+    {
+      "path": "mira_scene/filter_robot_cloud_sor.py",
+      "bytes": 4454,
+      "sha256": "9969c9e89302e3eebc6d25f04f23b9f0d3fd0e8d9c53a9700cca995ea1e9a1a8"
+    },
+    {
+      "path": "mira_scene/make_depth_preview.py",
+      "bytes": 979,
+      "sha256": "d3a96a925a3211eae0d690c22ca126004cbf1ac18be346b813dd7af5a4016d64"
+    },
+    {
+      "path": "mira_scene/make_floor_mask.py",
+      "bytes": 1337,
+      "sha256": "fd4e13800cb3ae6cc43883ba2e1c67c36244631183dda74370e10e1a28dc216f"
+    },
+    {
+      "path": "mira_scene/make_rgbd_pointcloud.py",
+      "bytes": 10968,
+      "sha256": "ddc3474bac8d7b9181311ac2e33f8ffdf18c26c52fb410043f9de0ea2db70d83"
+    },
+    {
+      "path": "mira_scene/prepare_scoped_lab_inputs.py",
+      "bytes": 1798,
+      "sha256": "044df12d0bb2eb8a39f4442b57e266feac1e43c0daa3991b18e8ce51bb72a3e5"
+    },
+    {
+      "path": "mira_scene/prepare_teacher_bundle.py",
+      "bytes": 3879,
+      "sha256": "b3d06f719363bcf56fc3e9c13bfe78c5993abda837f88c58cd38f8317bb06cba"
+    },
+    {
+      "path": "mira_scene/prepare_v4_ccm.py",
+      "bytes": 1340,
+      "sha256": "4c81bf1052023eeaa230c3d4e463b13c226424a83f944a3779e503bb21e2b7bc"
+    },
+    {
+      "path": "mira_scene/reconstruct_real_lab.py",
+      "bytes": 3070,
+      "sha256": "9bf705a199ef3ef947c81c39e3d3aed6cf8b31133318b1d6981d5af8a396fa23"
+    },
+    {
+      "path": "mira_scene/reconstruct_scoped_lab.py",
+      "bytes": 1950,
+      "sha256": "7bbd7574d27df8019cc4ea9b7e7c4d9a9ad7716afe38d6bfec86b9f6e2aa66bb"
+    },
+    {
+      "path": "mira_scene/render_robot_depth_preview.py",
+      "bytes": 1622,
+      "sha256": "01950965c53c36b68968164e80cd23644fa1314efb138853fc90c598bb1b27ff"
+    },
+    {
+      "path": "mira_scene/run_real_mesh_lowmem.py",
+      "bytes": 4875,
+      "sha256": "fe0eeba30d7326a3f2b1a2fb1092e3d8066f7397413ecba46ae494e9cdfb0c76"
+    },
+    {
+      "path": "mira_scene/run_real_mira_stages.py",
+      "bytes": 1273,
+      "sha256": "716ecfe039ced98b5bd541de68e6336cedddd9dcea94e117f833d2cd8025ab4d"
+    },
+    {
+      "path": "mira_scene/run_robot_divider_mesh.py",
+      "bytes": 3596,
+      "sha256": "b7386702e7d40f06964891895021873abdb4f5a89f9975626f0f80e6f580f6d2"
+    },
+    {
+      "path": "mira_scene/run_scoped_stages.sh",
+      "bytes": 241,
+      "sha256": "5eae3c2bdef86aca897b740cb8053a95968ea1af3565e9b3b0e8dbc52fa5587c"
+    },
+    {
+      "path": "mira_scene/segment_purple_interactive.py",
+      "bytes": 1141,
+      "sha256": "cd53bbc49c2683b40a7c3922edc08d10f8ebf1d142de8cd5a45aed3a49893a60"
+    },
+    {
+      "path": "mira_scene/segment_robot_divider_scene.py",
+      "bytes": 2576,
+      "sha256": "2d37deec7382970d7aa4f16e1bcaa40cff272d9704d4bbe8c7e249aedb2ad3be"
+    },
+    {
+      "path": "mira_scene/segment_v4_sam3.py",
+      "bytes": 1366,
+      "sha256": "7c03c4b8c52d6a390051f3a68c326df114b54270fbc9797ed47fdb0c388a0a58"
+    },
+    {
+      "path": "mira_scene/test_v4.py",
+      "bytes": 2932,
+      "sha256": "efd24aba5b86c1b133afca2000392c512a6fbf6fc22567aed0a3c420ef528418"
+    },
+    {
+      "path": "mira_scene/triangulate_mira_pointmap.py",
+      "bytes": 6869,
+      "sha256": "88df842551c426767c8b4a33b68e9d0223c0420004163f02d0fc59df2aa6841e"
+    },
+    {
+      "path": "mira_scene/results/lab_between_dividers/input_manifest.json",
+      "bytes": 4524,
+      "sha256": "5b30b878c08696bb07870840568938989054d0ed2d4949b8059c4d0d24a63e6d"
+    },
+    {
+      "path": "mira_scene/results/lab_between_dividers/mesh_status.json",
+      "bytes": 237,
+      "sha256": "9071410848e725b325a70b997b8b3c5a1cc5d4af52b21720c0212b3570e3c501"
+    },
+    {
+      "path": "mira_scene/results/lab_between_dividers/README.md",
+      "bytes": 1134,
+      "sha256": "0a61dd16ffd1039508053326d3df2544a2ff0c574b85af3a2e69cd2fe3cde43a"
+    },
+    {
+      "path": "mira_scene/results/lab_between_dividers/stage_status.json",
+      "bytes": 286,
+      "sha256": "46c2a40518e4150565d31be3b084e7d3e49b6819e3b19791b9433a9200d058b7"
+    },
+    {
+      "path": "mira_scene/results/lab_between_dividers/cases/tables_purple/provenance.json",
+      "bytes": 793,
+      "sha256": "07a355479944e17486558a95f6e227279b7b70273221366dee6b0bcab8c69542"
+    },
+    {
+      "path": "mira_scene/results/lab_between_dividers/cases/tables_purple/depth/moge/fov_x_rad.txt",
+      "bytes": 13,
+      "sha256": "99ca8944d856d9735b8bb882f65a03a7485a40801a318ff866768d0a213d318d"
+    },
+    {
+      "path": "mira_scene/results/lab_between_dividers/cases/white_boundary/provenance.json",
+      "bytes": 546,
+      "sha256": "98d9ea95b42b0cf6a13003095d58c09e5b927ef5fe4d9b848861f66121b08e71"
+    },
+    {
+      "path": "mira_scene/results/lab_between_dividers/cases/white_boundary/depth/moge/fov_x_rad.txt",
+      "bytes": 13,
+      "sha256": "bf49fb4fe818f8565d8c750c7a65fd14866441904b83f93ec4bc5d8d8ef5be4d"
+    },
+    {
+      "path": "mira_scene/results/lab_between_dividers/viewer/index.html",
+      "bytes": 2464,
+      "sha256": "901442ecbf48ea6a4c66e5251179c86adc50a9cf8a5b6bf81c6dd46c8068d2c2"
+    },
+    {
+      "path": "mira_scene/results/lab_no_robot_depth/fov_x_rad.txt",
+      "bytes": 13,
+      "sha256": "bf49fb4fe818f8565d8c750c7a65fd14866441904b83f93ec4bc5d8d8ef5be4d"
+    },
+    {
+      "path": "mira_scene/results/lab_no_robot_depth/floor/floor_alignment.json",
+      "bytes": 2872,
+      "sha256": "23227fc6fb8a573b26db2d5989504dfb015cb279fcf9869665fdaf372f775c77"
+    },
+    {
+      "path": "mira_scene/results/lab_no_robot_segmentation/scene_graph.json",
+      "bytes": 3460,
+      "sha256": "0cc73f113422e63cb9b1b319c072f7c9aebac75538663fb78a12cfc64000d3c5"
+    },
+    {
+      "path": "mira_scene/results/real_lab_mira/pytorch3d_build_status.json",
+      "bytes": 16,
+      "sha256": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01"
+    },
+    {
+      "path": "mira_scene/results/real_lab_mira/README.md",
+      "bytes": 2550,
+      "sha256": "a6484f0585661e2563912004f4344ee6961d067d816dbe11db0334139b7f971c"
+    },
+    {
+      "path": "mira_scene/results/real_lab_mira/stage_status.json",
+      "bytes": 190,
+      "sha256": "ba9f76bb71b6b4d362a9a6701c8dbc009a8a09202729cfb03a86b8db3c2b21d4"
+    },
+    {
+      "path": "mira_scene/results/real_lab_mira/cases/purple_table/provenance.json",
+      "bytes": 704,
+      "sha256": "53494920c81aa7a5f0a92936bb4c8054490296dfc0d904eecf825c9d21e57ce8"
+    },
+    {
+      "path": "mira_scene/results/real_lab_mira/cases/purple_table/depth/moge/fov_x_rad.txt",
+      "bytes": 13,
+      "sha256": "86ba675918af72dfdeb31dfc8a53a0a80578f68e1ab34fac99f6f55bfa8ced87"
+    },
+    {
+      "path": "mira_scene/results/real_lab_mira/cases/purple_table/floor/floor_alignment.json",
+      "bytes": 3075,
+      "sha256": "473e0c148459d6c0003936ca0979dbfcebf9351f8cec1c41a44e41df69b912e6"
+    },
+    {
+      "path": "mira_scene/results/real_lab_mira/cases/robot_divider_scene/sam3_masks.json",
+      "bytes": 593,
+      "sha256": "12e7366cc672c5df04cbf4695a38f240436dee8ac992116b1143967bb04b44a8"
+    },
+    {
+      "path": "mira_scene/results/real_lab_mira/cases/robot_divider_scene/depth/moge/fov_x_rad.txt",
+      "bytes": 13,
+      "sha256": "6a403fab12f51fd203fa411f39632ccb6ee7590a01b82d75d807a072d80b570d"
+    },
+    {
+      "path": "mira_scene/results/real_lab_mira/cases/robot_divider_scene/mesh/rgbd_surface/index.html",
+      "bytes": 1981,
+      "sha256": "b86c602c4e380e654c7223084a06434a0548f35f510403223d4cf71562e6c4a0"
+    },
+    {
+      "path": "mira_scene/results/real_lab_mira/cases/robot_divider_scene/mesh/rgbd_surface/open_in_isaac_sim.bat",
+      "bytes": 250,
+      "sha256": "a618397459316c3d5c7152e97003f28e8e117e8ff94ff60257b8ab68182e9f54"
+    },
+    {
+      "path": "mira_scene/results/real_lab_mira/cases/robot_divider_scene/pointcloud_cleaning/sor_report.json",
+      "bytes": 948,
+      "sha256": "599eb481d6dc235c80aaff82a5106ca57dc15a69e9973bbf9d492b504a701417"
+    },
+    {
+      "path": "mira_scene/results/real_lab_mira/cases/white_divider/camera_metadata_iphone17pro_1x.json",
+      "bytes": 985,
+      "sha256": "4b4f6788d29fd6419570171d236a25130bf08a301eb9d4b98ff298d4ab768034"
+    },
+    {
+      "path": "mira_scene/results/real_lab_mira/cases/white_divider/provenance.json",
+      "bytes": 603,
+      "sha256": "16e7d3cc790e376b231737c6e771295efb9cd1d3aae26df2def5ca5bf79c2a13"
+    },
+    {
+      "path": "mira_scene/results/real_lab_mira/cases/white_divider/depth/moge/fov_x_rad.txt",
+      "bytes": 13,
+      "sha256": "bf49fb4fe818f8565d8c750c7a65fd14866441904b83f93ec4bc5d8d8ef5be4d"
+    },
+    {
+      "path": "mira_scene/results/real_lab_mira/cases/white_divider/floor/floor_alignment.json",
+      "bytes": 3086,
+      "sha256": "40dea7cd5ef8ea12c582daa59ccd0b0f6b8ae90b42bbfcb8e822596c99e5fdcb"
+    },
+    {
+      "path": "mira_scene/results/real_lab_mira/purple_mask_review/scores.json",
+      "bytes": 31,
+      "sha256": "adb44f6b2d4706fd87700aa111066231d2f4396c16b20339eb469be0c95cad06"
+    },
+    {
+      "path": "mira_scene/results/real_lab_mira/rgbd_pointcloud/index.html",
+      "bytes": 353284,
+      "sha256": "c68035a17d164f81a6d777beb86cd082750993c34e4b5b027e95169fa0f79f3d"
+    },
+    {
+      "path": "mira_scene/results/real_lab_mira/rgbd_pointcloud/manifest.json",
+      "bytes": 872,
+      "sha256": "fb65c7adbbe51f8a63287a621a14e2f92906bc3efcee234e7c7a7a66c30f7ad5"
+    },
+    {
+      "path": "mira_scene/results/v4_ccm/cases/v4_eye/provenance.json",
+      "bytes": 675,
+      "sha256": "c56821db794260365bc25fc09f6b2daaa067a90c4903715bc475aa45825f8a91"
+    },
+    {
+      "path": "mira_scene/results/v4_sam3/detections.json",
+      "bytes": 1620,
+      "sha256": "32e84a6a56aa402e209523d33d91968327e8d528e61bc13e9ace275da298b90f"
+    },
+    {
+      "path": "mira_scene/results/v4_test/test_config.yaml",
+      "bytes": 1926,
+      "sha256": "89c4b8d2fcd7a4126755099dec3c81c77307aad41436a1239fce989648b357d6"
+    },
+    {
+      "path": "mira_scene/results/v4_test/test_results.json",
+      "bytes": 233,
+      "sha256": "cad22056427cb4ed5f6411f96a2ecf41a3f2bc35d2c106afcc73adaa0751e1e6"
+    },
+    {
+      "path": "mira_scene/results/v4_test/测试说明.md",
+      "bytes": 1704,
+      "sha256": "ff312d02f7072d03940f7a7c2fbcd939fbe40c92d5a7ae568100d8355abe6e73"
+    },
+    {
+      "path": "mira_scene/results/v4_test/cases/v4_eye/depth/moge/fov_x_rad.txt",
+      "bytes": 13,
+      "sha256": "b0b9184289ce2324b0b77871241cad9855bc9093afa743fdc552ab29358f4b1e"
+    },
+    {
+      "path": "mira_scene/results/v4_test/cases/v4_eye/floor/floor_alignment.json",
+      "bytes": 3010,
+      "sha256": "75d260ec3a831d35acc06e837a88e231ce6b2cf2fb217fc5741cab0c2126d868"
+    },
+    {
+      "path": "mira_scene/results/v4_test/cases/v4_overview/depth/moge/fov_x_rad.txt",
+      "bytes": 13,
+      "sha256": "3757ecf7ee5ecfc13cb07cd121b9fa16d0be798c118d53c231ba325212eb65c7"
+    },
+    {
+      "path": "gaussian_splatting/prepare_enhanced.sh",
+      "bytes": 1517,
+      "sha256": "dc70a1b5c1ded3f1f72320001ca0863c9a334a057aae6b983fe01fd5bd6eaa6d"
+    },
+    {
+      "path": "gaussian_splatting/prepare_lab.sh",
+      "bytes": 1065,
+      "sha256": "d3364e0a47ccef40f0f10e5caa883f28e2c329f6a2b81f466230fa3eaecaa906"
+    },
+    {
+      "path": "gaussian_splatting/README.md",
+      "bytes": 2225,
+      "sha256": "a4e80f5077a8f1a43f2c93e8e953469ade10b591c26adf75cd0d119806a0ae70"
+    },
+    {
+      "path": "gaussian_splatting/render_preview.py",
+      "bytes": 949,
+      "sha256": "33b25cbbb077ae366e1f0f434986742186cf67392140e24ad37331bf36acdb95"
+    },
+    {
+      "path": "gaussian_splatting/run_lego_demo.sh",
+      "bytes": 510,
+      "sha256": "9c123bc6e3e741bd92530dfd6779379d55976b997f6d9037e38f36c86058dbed"
+    },
+    {
+      "path": "gaussian_splatting/run_poster_demo.sh",
+      "bytes": 596,
+      "sha256": "25ad32a9454bf131ed4c01e521b8b2189ef6db193f8d58aaf2b41c35e2282b3c"
+    },
+    {
+      "path": "gaussian_splatting/run_tandt_demo.sh",
+      "bytes": 1231,
+      "sha256": "0b1817b15f4b2cb7002fa25b3d23faf2fc9d65da6d7438c1e57f78754c701675"
+    },
+    {
+      "path": "gaussian_splatting/select_lab_model.py",
+      "bytes": 1111,
+      "sha256": "c11eeb80f3d9ead475d5caccab26bced6fbb3fe0e5a787c988a540af0d0189eb"
+    },
+    {
+      "path": "gaussian_splatting/setup_wsl.sh",
+      "bytes": 1343,
+      "sha256": "2ed26dcc817e7843dfb5f7cf5ba90ac85178eae37821c304493a3e0f821b1be0"
+    },
+    {
+      "path": "gaussian_splatting/track_robot_masks.py",
+      "bytes": 2809,
+      "sha256": "0c750e60c644cd6f3e9ed5ba8c401319c2e24219b4b3d09e9e2caeb7db246d4d"
+    },
+    {
+      "path": "gaussian_splatting/train_enhanced.sh",
+      "bytes": 1623,
+      "sha256": "ad51b52a9760675ba6014314bba22ae975a9262b0dbcad59200165364c858b22"
+    },
+    {
+      "path": "gaussian_splatting/train_lab.bat",
+      "bytes": 107,
+      "sha256": "befdce444b0731cb7e28189bef02f17bc1c85395ee7421f1d390b3daf2c82b42"
+    },
+    {
+      "path": "gaussian_splatting/train_lab.sh",
+      "bytes": 1494,
+      "sha256": "162c82ba38128c16f4f8e639a0028407decb52db6c0d0b085205c27f0cb2b1bf"
+    },
+    {
+      "path": "gaussian_splatting/verify_training.sh",
+      "bytes": 1097,
+      "sha256": "f5712a268e6d1a27ff37c70c44e32ea408ec37c2e0e6c70d25a9bbb7a631317f"
+    },
+    {
+      "path": "gaussian_splatting/results/lab_20260929_134048/previews/preview_metadata.json",
+      "bytes": 268,
+      "sha256": "3f104e68606539a82985381dd4980456dd312c022d8e532928b19abb6b366451"
+    },
+    {
+      "path": "gaussian_splatting/results/lab_20260929_134258/previews/preview_metadata.json",
+      "bytes": 269,
+      "sha256": "f613f19d344fb73842160f0d0d79d1c784e829ac839827444aa70f415b7b9563"
+    },
+    {
+      "path": "gaussian_splatting/results/lab_clean_no_robot_20260930_011249/previews/preview_metadata.json",
+      "bytes": 288,
+      "sha256": "059f62dc9e0264d81257f54af6279ee26d2c7283f9dcf48c7b1c2cda791bc4eb"
+    },
+    {
+      "path": "gaussian_splatting/results/lab_clean_no_robot_FINAL_20260930_012324/previews/preview_metadata.json",
+      "bytes": 288,
+      "sha256": "c653d6c16cc76db4f1a0646252c792af1e2fa91b5cd80490d984e25561d26d8f"
+    },
+    {
+      "path": "gaussian_splatting/results/lab_enhanced_no_robot_20260930_010215/previews/preview_metadata.json",
+      "bytes": 282,
+      "sha256": "847f9295594805724bcc419642638cd28f7e576523068e45dbae807b6ec00747"
+    },
+    {
+      "path": "gaussian_splatting/results/lab_robot_removed_PARTIAL_20260930_013052/previews/preview_metadata.json",
+      "bytes": 287,
+      "sha256": "29a77c4b647aef3355e0a6269596502dd2d1617bc62b5531b40c7610daeb3d4c"
+    }
+  ]
+}

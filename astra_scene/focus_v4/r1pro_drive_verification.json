@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "scene": "C:\\Users\\woom\\Desktop\\woom\\astra_scene\\focus_v4\\focused_zone_with_r1pro.usda",
+  "robot": "Galaxea R1 Pro",
+  "steering_joints": [
+    "steer_motor_joint1",
+    "steer_motor_joint2",
+    "steer_motor_joint3"
+  ],
+  "wheel_joints": [
+    "wheel_motor_joint1",
+    "wheel_motor_joint2",
+    "wheel_motor_joint3"
+  ],
+  "wheel_effort_nm": 18.0,
+  "commanded_frames": 30,
+  "start_xyz_m": [
+    0.2500104308128357,
+    -0.5500109195709229,
+    -0.00023905932903289795
+  ],
+  "end_xyz_m": [
+    0.46320435404777527,
+    -0.5531711578369141,
+    0.004434823989868164
+  ],
+  "displacement_xyz_m": [
+    0.21319392323493958,
+    -0.003160238265991211,
+    0.004673883318901062
+  ],
+  "planar_distance_m": 0.21321734453417043,
+  "start_wheel_positions_rad": [
+    [
+      1.2144146239734255e-05,
+      0.00010159578232560307,
+      3.979805114795454e-05
+    ]
+  ],
+  "end_wheel_positions_rad": [
+    [
+      -4.938206672668457,
+      1.993401050567627,
+      -3.8568179607391357
+    ]
+  ],
+  "end_wheel_velocities_rad_s": [
+    [
+      -1.9531495571136475,
+      -0.0027665707748383284,
+      -1.849746584892273
+    ]
+  ],
+  "start_orientation_wxyz": [
+    1.0000001192092896,
+    1.1254253422521288e-06,
+    -1.8814959901192196e-07,
+    7.864915460231714e-06
+  ],
+  "end_orientation_wxyz": [
+    0.9571724534034729,
+    -0.011224359273910522,
+    -0.0106991371139884,
+    0.28910303115844727
+  ]
+}

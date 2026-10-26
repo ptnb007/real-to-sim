@@ -1,0 +1,28 @@
+{
+  "source": "third_party/gs_playground/demo/navigation/nav_scene_1/3dgs/point_cloud.ply",
+  "method": "GS expected-depth and alpha>=0.95, TSDF fusion",
+  "views": 108,
+  "voxel_source_units": 0.025,
+  "vertices": 246516,
+  "triangles": 472219,
+  "bounds": [
+    [
+      -2.629363871256673,
+      -5.29787285106361,
+      -0.09563957740145512
+    ],
+    [
+      2.2882761179459488,
+      4.05205227690658,
+      2.8328792451316587
+    ]
+  ],
+  "watertight": false,
+  "edge_manifold": true,
+  "notes": [
+    "Original GS geometry extraction; not screenshot-only inference or SAM3D output.",
+    "Static surface, object instances not separated.",
+    "Real-world scale and physics behavior unverified."
+  ],
+  "usd_blender_import_verified": true
+}

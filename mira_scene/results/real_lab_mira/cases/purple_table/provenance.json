@@ -1,0 +1,28 @@
+{
+  "source": "/mnt/c/Users/woom/Desktop/woom/astra_scene/video_review/frame_00.jpg",
+  "input_type": "real photo/video frame",
+  "method": "official SAM3 text segmentation; not VLM scene graph",
+  "not_reconstructed": [
+    "excluded robot/person regions; no invented background"
+  ],
+  "objects": [
+    {
+      "prompt": "table covered with gray cloth",
+      "score": 0.98046875,
+      "mask": "mask_000.png",
+      "pixels": 259466
+    },
+    {
+      "prompt": "table covered with gray cloth",
+      "score": 0.96875,
+      "mask": "mask_001.png",
+      "pixels": 46367
+    },
+    {
+      "prompt": "floor",
+      "score": 0.91796875,
+      "mask": "floor_mask.png",
+      "pixels": 48772
+    }
+  ]
+}

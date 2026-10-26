@@ -1,0 +1,10 @@
+{
+  "checkpoint": "/home/woom/gaussian_splatting_demo/outputs/lab_video/splatfacto/2026-09-29_134048/nerfstudio_models/step-000000999.ckpt",
+  "step": 999,
+  "camera_indices": [
+    0,
+    28,
+    56
+  ],
+  "note": "Training-camera previews, not held-out evaluation"
+}

@@ -1,0 +1,21 @@
+{
+  "vertices": 149583,
+  "faces": 298357,
+  "color_attributes": [
+    "Col"
+  ],
+  "bounds": [
+    [
+      -5.21151876449585,
+      -6.039340019226074,
+      -0.15320299565792084
+    ],
+    [
+      4.945745944976807,
+      2.714339017868042,
+      2.5840189456939697
+    ]
+  ],
+  "source": "C:\\Users\\woom\\Documents\\xwechat_files\\wxid_3fg5lyf1apf612_e732\\msg\\file\\2026-09\\astra_lab_vertex_color.ply",
+  "scale_verified": false
+}

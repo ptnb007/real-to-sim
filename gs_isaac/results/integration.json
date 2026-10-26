@@ -1,0 +1,14 @@
+{
+  "physics_and_sync": "passed",
+  "rendered": true,
+  "fixture": "synthetic Gaussian cube; not a reconstructed robot",
+  "frames": 120,
+  "max_position_error_m": 3.725290298461914e-08,
+  "max_quaternion_dot_error": 1.1920928955078125e-07,
+  "static_background_unchanged": true,
+  "camera_projection": "passed (identity and 90-degree yaw)",
+  "initial_height_m": 0.9979562759399414,
+  "final_height_m": 0.09999996423721313,
+  "torch": "2.7.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5060"
+}

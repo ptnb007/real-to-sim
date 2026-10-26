@@ -1,0 +1,9 @@
+<!doctype html><html lang="zh"><meta charset="utf-8"><title>Mira Mesh</title>
+<style>body{margin:0;background:#151b25;color:white;font:16px system-ui}header{padding:12px}canvas{width:100%;height:90vh;display:block}button{margin-left:16px}</style>
+<header>Mira 网格 · 拖动旋转，滚轮缩放 <button onclick="location.reload()">重置</button><span id="status">正在加载模型（约108MB）…</span></header><canvas id="view"></canvas>
+<script src="https://cdn.babylonjs.com/babylon.js"></script><script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+<script>
+const status=document.getElementById('status');
+try{const engine=new BABYLON.Engine(document.getElementById('view'),true);const scene=new BABYLON.Scene(engine);scene.clearColor=new BABYLON.Color4(.08,.1,.14,1);const camera=new BABYLON.ArcRotateCamera('camera',-Math.PI/2,Math.PI/2,5,BABYLON.Vector3.Zero(),scene);camera.attachControl(document.getElementById('view'),true);camera.minZ=.001;camera.wheelDeltaPercentage=.01;new BABYLON.HemisphericLight('light',new BABYLON.Vector3(0,1,0),scene);
+BABYLON.SceneLoader.ImportMeshAsync('', './','mira_rgbd_surface_mesh.glb',scene).then(result=>{let lo=new BABYLON.Vector3(Infinity,Infinity,Infinity),hi=new BABYLON.Vector3(-Infinity,-Infinity,-Infinity);for(const mesh of result.meshes){if(!mesh.getTotalVertices())continue;mesh.computeWorldMatrix(true);const b=mesh.getBoundingInfo().boundingBox;lo=BABYLON.Vector3.Minimize(lo,b.minimumWorld);hi=BABYLON.Vector3.Maximize(hi,b.maximumWorld);if(mesh.material)mesh.material.backFaceCulling=false;}camera.setTarget(lo.add(hi).scale(.5));camera.radius=hi.subtract(lo).length()*1.1;status.textContent='模型已加载 · 单视角表面网格，相对尺度';}).catch(e=>status.textContent='载入失败：'+e.message);engine.runRenderLoop(()=>scene.render());window.addEventListener('resize',()=>engine.resize());}catch(e){status.textContent='预览启动失败：'+e.message}
+</script></html>

@@ -1,0 +1,33 @@
+api_version: 1.0
+root_link: base_link
+cspace:
+  - right_arm_joint1
+  - right_arm_joint2
+  - right_arm_joint3
+  - right_arm_joint4
+  - right_arm_joint5
+  - right_arm_joint6
+  - right_arm_joint7
+default_q: [-0.5, -0.46, 0.65, -1.23, -2.27, -0.37, -1.44]
+acceleration_limits: [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0]
+jerk_limits: [80.0, 80.0, 80.0, 80.0, 80.0, 80.0, 80.0]
+cspace_to_urdf_rules:
+  - {name: torso_joint1, rule: fixed, value: 0.5}
+  - {name: torso_joint2, rule: fixed, value: -0.8}
+  - {name: torso_joint3, rule: fixed, value: -0.3}
+  - {name: torso_joint4, rule: fixed, value: 0.0}
+  - {name: steer_motor_joint1, rule: fixed, value: 0.0}
+  - {name: steer_motor_joint2, rule: fixed, value: 0.0}
+  - {name: steer_motor_joint3, rule: fixed, value: 0.0}
+  - {name: wheel_motor_joint1, rule: fixed, value: 0.0}
+  - {name: wheel_motor_joint2, rule: fixed, value: 0.0}
+  - {name: wheel_motor_joint3, rule: fixed, value: 0.0}
+  - {name: left_arm_joint1, rule: fixed, value: 0.0}
+  - {name: left_arm_joint2, rule: fixed, value: 0.0}
+  - {name: left_arm_joint3, rule: fixed, value: 0.0}
+  - {name: left_arm_joint4, rule: fixed, value: 0.0}
+  - {name: left_arm_joint5, rule: fixed, value: 0.0}
+  - {name: left_arm_joint6, rule: fixed, value: 0.0}
+  - {name: left_arm_joint7, rule: fixed, value: 0.0}
+  - {name: right_gripper_finger_joint1, rule: fixed, value: 0.0}
+  - {name: right_gripper_finger_joint2, rule: fixed, value: 0.0}

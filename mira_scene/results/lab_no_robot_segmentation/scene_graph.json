@@ -1,0 +1,128 @@
+{
+  "schema": "mira_scene_graph_v1",
+  "case": "lab_no_robot",
+  "edge_direction": "child_to_direct_supporter",
+  "nodes": [
+    {
+      "id": "floor",
+      "kind": "static_environment",
+      "name": "floor",
+      "motion": "fixed",
+      "fixed": true,
+      "dynamic": false
+    },
+    {
+      "id": "world_anchor",
+      "kind": "virtual_static_anchor",
+      "name": "wall_or_ceiling",
+      "motion": "fixed",
+      "fixed": true,
+      "dynamic": false
+    },
+    {
+      "id": "object_000",
+      "kind": "object",
+      "mask_index": 0,
+      "mask_file": "input/mask_000.png",
+      "name": "folding room divider",
+      "short_name": "folding room divider",
+      "caption": "A large off-white folding room divider forming the central wall of the reconstructed laboratory area.",
+      "caption_source": "human_guided",
+      "name_locked": true,
+      "caption_locked": true,
+      "motion": "fixed",
+      "fixed": true,
+      "dynamic": false,
+      "upright_mode": "auto",
+      "confidence": 0.9
+    },
+    {
+      "id": "object_001",
+      "kind": "object",
+      "mask_index": 1,
+      "mask_file": "input/mask_001.png",
+      "name": "laboratory desk",
+      "short_name": "laboratory desk",
+      "caption": "A white rectangular laboratory desk with a monitor and computer equipment, placed to the left of the divider.",
+      "caption_source": "human_guided",
+      "name_locked": true,
+      "caption_locked": true,
+      "motion": "fixed",
+      "fixed": true,
+      "dynamic": false,
+      "upright_mode": "auto",
+      "confidence": 0.9
+    },
+    {
+      "id": "object_002",
+      "kind": "object",
+      "mask_index": 2,
+      "mask_file": "input/mask_002.png",
+      "name": "upholstered ottoman",
+      "short_name": "upholstered ottoman",
+      "caption": "A rectangular pale fabric ottoman with a black tray on top, positioned in front of the divider.",
+      "caption_source": "human_guided",
+      "name_locked": true,
+      "caption_locked": true,
+      "motion": "dynamic",
+      "fixed": false,
+      "dynamic": true,
+      "upright_mode": "auto",
+      "confidence": 0.9
+    },
+    {
+      "id": "object_003",
+      "kind": "object",
+      "mask_index": 3,
+      "mask_file": "input/mask_003.png",
+      "name": "poster display stand",
+      "short_name": "poster display stand",
+      "caption": "A freestanding black metal poster display with a rectangular framed sign and circular base.",
+      "caption_source": "human_guided",
+      "name_locked": true,
+      "caption_locked": true,
+      "motion": "dynamic",
+      "fixed": false,
+      "dynamic": true,
+      "upright_mode": "auto",
+      "confidence": 0.9
+    }
+  ],
+  "edges": [
+    {
+      "child": "object_000",
+      "parent": "floor",
+      "relation": "rests_on",
+      "supporter_raw": "floor",
+      "confidence": 0.9,
+      "operational": true
+    },
+    {
+      "child": "object_001",
+      "parent": "floor",
+      "relation": "rests_on",
+      "supporter_raw": "floor",
+      "confidence": 0.9,
+      "operational": true
+    },
+    {
+      "child": "object_002",
+      "parent": "floor",
+      "relation": "rests_on",
+      "supporter_raw": "floor",
+      "confidence": 0.9,
+      "operational": true
+    },
+    {
+      "child": "object_003",
+      "parent": "floor",
+      "relation": "rests_on",
+      "supporter_raw": "floor",
+      "confidence": 0.9,
+      "operational": true
+    }
+  ],
+  "vlm_inference": {
+    "model": "manual_bootstrap"
+  }
+}

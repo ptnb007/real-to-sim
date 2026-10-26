@@ -1,0 +1,31 @@
+{
+  "scene": "C:\\Users\\woom\\Desktop\\woom\\third_party\\gs_playground\\demo\\navigation\\nav_scene_1\\3dgs\\point_cloud.ply",
+  "torch": "2.7.0+cu128",
+  "cuda": true,
+  "rendered": true,
+  "gaussians": 265778,
+  "bounds": [
+    [
+      -7.1491923332214355,
+      -5.8977885246276855,
+      -0.7080978155136108
+    ],
+    [
+      2.496621608734131,
+      4.852655410766602,
+      3.591045618057251
+    ]
+  ],
+  "rgb_shape": [
+    1,
+    240,
+    320,
+    3
+  ],
+  "depth_shape": [
+    1,
+    240,
+    320,
+    1
+  ]
+}

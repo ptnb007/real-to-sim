@@ -1,0 +1,17 @@
+{
+  "source": "C:\\Users\\woom\\Desktop\\woom\\mira_scene\\results\\real_lab_mira\\cases\\robot_divider_scene\\depth\\moge\\robot.ply",
+  "original_clone": "C:\\Users\\woom\\Desktop\\woom\\mira_scene\\results\\real_lab_mira\\cases\\robot_divider_scene\\pointcloud_cleaning\\robot_original_clone.ply",
+  "filtered": "C:\\Users\\woom\\Desktop\\woom\\mira_scene\\results\\real_lab_mira\\cases\\robot_divider_scene\\pointcloud_cleaning\\robot_sor_k20_sigma3.ply",
+  "method": "statistical outlier removal",
+  "neighbors": 20,
+  "std_ratio": 3.0,
+  "threshold": 0.011903130449354649,
+  "mean_neighbor_distance": 0.0032957380171865225,
+  "std_neighbor_distance": 0.0028691308107227087,
+  "input_points": 2184960,
+  "finite_points": 2184960,
+  "kept_points": 2157258,
+  "removed_points": 27702,
+  "manual_screen_space_crop": false,
+  "note": "No guessed screen-space crop was applied; compare filtered and source clouds for detail loss."
+}

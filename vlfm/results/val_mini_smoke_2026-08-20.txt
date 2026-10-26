@@ -1,0 +1,25 @@
+VLFM HM3D val-mini functional reproduction
+Date: 2026-08-20
+Machine: Windows 10 / WSL2 Ubuntu 24.04 / RTX 5060 8 GB
+Episode count: 1
+Object goal: toilet
+Final step: 58
+Elapsed episode time: 33.14 seconds
+
+Average episode reward: 6.6503
+Average episode distance_to_goal: 0.0457
+Average episode success: 1.0000
+Average episode spl: 0.7376
+Average episode soft_spl: 0.7297
+Average episode target_detected: 1.0000
+Average episode stop_called: 1.0000
+
+Success rate: 100.00% (1 out of 1)
+
+Command:
+bash scripts/run_val_mini_wsl.sh
+
+Notes:
+- Habitat-Sim rendering used WSLg Mesa llvmpipe via gpu_device_id=-1.
+- GroundingDINO, BLIP2-ITM, MobileSAM, and YOLOv7 ran concurrently on CUDA.
+- This is a one-episode functional smoke test, not an aggregate benchmark.

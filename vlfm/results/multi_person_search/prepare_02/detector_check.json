@@ -1,0 +1,29 @@
+{
+  "standing": {
+    "scores": [
+      0.9248855113983154
+    ],
+    "phrases": [
+      "person"
+    ],
+    "image_sha256": "a2e7f79478c68664ddcedd51f1cc38eeb76c5b116342b94699dbb8f17a643feb"
+  },
+  "seated": {
+    "scores": [
+      0.9071203470230103
+    ],
+    "phrases": [
+      "person"
+    ],
+    "image_sha256": "55cc627a95c7253f76e7c74a2ffa73e01d8a49166c75c1efb8a0c755423cebc3"
+  },
+  "lying": {
+    "scores": [
+      0.6177634000778198
+    ],
+    "phrases": [
+      "person"
+    ],
+    "image_sha256": "99030616d146e2584821c2f83aab282e9d82e270c07f7f829e52e5affdce847b"
+  }
+}

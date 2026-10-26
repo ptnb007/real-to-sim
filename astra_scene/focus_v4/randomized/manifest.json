@@ -1,0 +1,184 @@
+{
+  "scene": "focus_v4",
+  "robot": "Galaxea R1 Pro",
+  "seed": 20260924,
+  "count": 12,
+  "randomized_fields": [
+    "robot_xy",
+    "robot_yaw",
+    "dome_light_intensity",
+    "key_light_intensity",
+    "light_color_temperature_proxy",
+    "camera_focal_length"
+  ],
+  "samples": [
+    {
+      "index": 0,
+      "usd": "C:\\Users\\woom\\Desktop\\woom\\astra_scene\\focus_v4\\randomized\\focus_v4_r1pro_random_000.usda",
+      "robot_xyz_m": [
+        0.05564981760968485,
+        -0.3854827949590344,
+        0.0
+      ],
+      "robot_yaw_deg": 18.200478166664837,
+      "dome_intensity": 691.3563679280194,
+      "key_intensity": 1274.2474874143022,
+      "light_warmth": 0.9568656733527787,
+      "camera_focal_length_mm": 46.73537002340031
+    },
+    {
+      "index": 1,
+      "usd": "C:\\Users\\woom\\Desktop\\woom\\astra_scene\\focus_v4\\randomized\\focus_v4_r1pro_random_001.usda",
+      "robot_xyz_m": [
+        0.0711387038491132,
+        -0.600790200257229,
+        0.0
+      ],
+      "robot_yaw_deg": -5.822096216966777,
+      "dome_intensity": 700.0239195709983,
+      "key_intensity": 2001.7611700787056,
+      "light_warmth": 0.993182306984879,
+      "camera_focal_length_mm": 49.27322241769752
+    },
+    {
+      "index": 2,
+      "usd": "C:\\Users\\woom\\Desktop\\woom\\astra_scene\\focus_v4\\randomized\\focus_v4_r1pro_random_002.usda",
+      "robot_xyz_m": [
+        0.21335524983694876,
+        -0.6774272864880686,
+        0.0
+      ],
+      "robot_yaw_deg": -19.434458169309863,
+      "dome_intensity": 508.615559371299,
+      "key_intensity": 2108.235627735591,
+      "light_warmth": 0.9086505052394718,
+      "camera_focal_length_mm": 42.4347131355956
+    },
+    {
+      "index": 3,
+      "usd": "C:\\Users\\woom\\Desktop\\woom\\astra_scene\\focus_v4\\randomized\\focus_v4_r1pro_random_003.usda",
+      "robot_xyz_m": [
+        0.22401084952430456,
+        -0.46218532863029577,
+        0.0
+      ],
+      "robot_yaw_deg": -18.67757553439585,
+      "dome_intensity": 619.4243534248283,
+      "key_intensity": 1702.6432955074001,
+      "light_warmth": 0.9493835880231936,
+      "camera_focal_length_mm": 43.512984504061606
+    },
+    {
+      "index": 4,
+      "usd": "C:\\Users\\woom\\Desktop\\woom\\astra_scene\\focus_v4\\randomized\\focus_v4_r1pro_random_004.usda",
+      "robot_xyz_m": [
+        0.21749361328866712,
+        -0.37546989283627946,
+        0.0
+      ],
+      "robot_yaw_deg": -2.3645033924995538,
+      "dome_intensity": 846.7875745784356,
+      "key_intensity": 1432.4321273452936,
+      "light_warmth": 0.9816487005720144,
+      "camera_focal_length_mm": 44.69857491553919
+    },
+    {
+      "index": 5,
+      "usd": "C:\\Users\\woom\\Desktop\\woom\\astra_scene\\focus_v4\\randomized\\focus_v4_r1pro_random_005.usda",
+      "robot_xyz_m": [
+        0.253216946015079,
+        -0.5046065930574242,
+        0.0
+      ],
+      "robot_yaw_deg": 4.586599812979049,
+      "dome_intensity": 470.7465119412259,
+      "key_intensity": 1428.1405730560214,
+      "light_warmth": 0.9172468680560348,
+      "camera_focal_length_mm": 47.676558749342824
+    },
+    {
+      "index": 6,
+      "usd": "C:\\Users\\woom\\Desktop\\woom\\astra_scene\\focus_v4\\randomized\\focus_v4_r1pro_random_006.usda",
+      "robot_xyz_m": [
+        0.26310393963470563,
+        -0.5668199646420764,
+        0.0
+      ],
+      "robot_yaw_deg": 15.184063711680551,
+      "dome_intensity": 736.1603625838834,
+      "key_intensity": 1684.8363926053426,
+      "light_warmth": 0.9785588984126175,
+      "camera_focal_length_mm": 49.26801561937147
+    },
+    {
+      "index": 7,
+      "usd": "C:\\Users\\woom\\Desktop\\woom\\astra_scene\\focus_v4\\randomized\\focus_v4_r1pro_random_007.usda",
+      "robot_xyz_m": [
+        0.20346063002249998,
+        -0.7264509947144341,
+        0.0
+      ],
+      "robot_yaw_deg": -15.920861415028938,
+      "dome_intensity": 425.8409812559644,
+      "key_intensity": 1589.5671891248082,
+      "light_warmth": 0.937791880633672,
+      "camera_focal_length_mm": 45.582755143485905
+    },
+    {
+      "index": 8,
+      "usd": "C:\\Users\\woom\\Desktop\\woom\\astra_scene\\focus_v4\\randomized\\focus_v4_r1pro_random_008.usda",
+      "robot_xyz_m": [
+        0.4028839500949297,
+        -0.39803171081384237,
+        0.0
+      ],
+      "robot_yaw_deg": -0.6496069012367265,
+      "dome_intensity": 777.0749223308167,
+      "key_intensity": 2065.2650048101277,
+      "light_warmth": 0.9373354942054899,
+      "camera_focal_length_mm": 49.37587407022982
+    },
+    {
+      "index": 9,
+      "usd": "C:\\Users\\woom\\Desktop\\woom\\astra_scene\\focus_v4\\randomized\\focus_v4_r1pro_random_009.usda",
+      "robot_xyz_m": [
+        0.3274810628316843,
+        -0.40576684259747026,
+        0.0
+      ],
+      "robot_yaw_deg": -5.4140655898935535,
+      "dome_intensity": 428.8303129146008,
+      "key_intensity": 2057.1678305384294,
+      "light_warmth": 0.9710895210468213,
+      "camera_focal_length_mm": 40.977978660568134
+    },
+    {
+      "index": 10,
+      "usd": "C:\\Users\\woom\\Desktop\\woom\\astra_scene\\focus_v4\\randomized\\focus_v4_r1pro_random_010.usda",
+      "robot_xyz_m": [
+        0.16646868362070855,
+        -0.4869919323396484,
+        0.0
+      ],
+      "robot_yaw_deg": 8.306890320633123,
+      "dome_intensity": 579.6452626428074,
+      "key_intensity": 1100.0837399144636,
+      "light_warmth": 0.9295996725721697,
+      "camera_focal_length_mm": 39.151603372546454
+    },
+    {
+      "index": 11,
+      "usd": "C:\\Users\\woom\\Desktop\\woom\\astra_scene\\focus_v4\\randomized\\focus_v4_r1pro_random_011.usda",
+      "robot_xyz_m": [
+        0.15774226936748054,
+        -0.6915671714307812,
+        0.0
+      ],
+      "robot_yaw_deg": 18.976644520881628,
+      "dome_intensity": 725.3816547069669,
+      "key_intensity": 1717.1753889557485,
+      "light_warmth": 0.9132866025421412,
+      "camera_focal_length_mm": 45.292732168789115
+    }
+  ]
+}

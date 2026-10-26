@@ -1,0 +1,12 @@
+[
+  {
+    "stage": "ccm",
+    "exit_code": 0,
+    "input": "real photographs/video frame"
+  },
+  {
+    "stage": "depth",
+    "exit_code": 0,
+    "input": "real photographs/video frame"
+  }
+]

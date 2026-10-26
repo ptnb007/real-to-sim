@@ -1,0 +1,19 @@
+{
+  "input_images": 9,
+  "camera_hypothesis": "PER_IMAGE, original resolution",
+  "models": [
+    {
+      "id": 0,
+      "registered_images": 5,
+      "points3D": 232,
+      "mean_reprojection_error_px": 0.4944138039289239,
+      "images": [
+        "bf7d9c37fb3bdbe65152dd905dbb10f2.jpg",
+        "95c4b8ccedec90a0b64aaa6e4ee39327.jpg",
+        "43494f12a82a6f60a899fdec7d6aedec.jpg",
+        "d0dd85f3a74afc738b964fd3b7f7df54.jpg",
+        "b836ce3d834f8dce16f34a66658350a5.jpg"
+      ]
+    }
+  ]
+}

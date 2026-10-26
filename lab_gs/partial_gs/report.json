@@ -1,0 +1,102 @@
+{
+  "status": "partial_draft_only",
+  "registered_images": 5,
+  "input_images": 9,
+  "initial_sparse_points": 215,
+  "gaussians": 44404,
+  "iterations": 3000,
+  "elapsed_s": 18.06550168991089,
+  "normalized_center": [
+    0.0,
+    -1.1102230246251566e-17,
+    1.3322676295501878e-16
+  ],
+  "normalized_scale": 5.369876406918171,
+  "metric_scale_calibrated": false,
+  "white_partition_registered": false,
+  "limitations": [
+    "White partition views are disconnected. Requested full region is not reconstructed.",
+    "Only training-view previews; no held-out validation.",
+    "People and robot are not semantically removed. No collision mesh."
+  ],
+  "losses": [
+    {
+      "step": 1,
+      "loss": 0.542839765548706,
+      "gaussians": 215,
+      "elapsed_s": 0.5234999656677246
+    },
+    {
+      "step": 251,
+      "loss": 0.4613940119743347,
+      "gaussians": 1256,
+      "elapsed_s": 2.1164989471435547
+    },
+    {
+      "step": 501,
+      "loss": 0.4670826196670532,
+      "gaussians": 18609,
+      "elapsed_s": 3.644498348236084
+    },
+    {
+      "step": 751,
+      "loss": 0.4438055455684662,
+      "gaussians": 44404,
+      "elapsed_s": 5.090501070022583
+    },
+    {
+      "step": 1001,
+      "loss": 0.42908284068107605,
+      "gaussians": 44404,
+      "elapsed_s": 6.478999853134155
+    },
+    {
+      "step": 1251,
+      "loss": 0.4044686555862427,
+      "gaussians": 44404,
+      "elapsed_s": 7.903000593185425
+    },
+    {
+      "step": 1501,
+      "loss": 0.41265517473220825,
+      "gaussians": 44404,
+      "elapsed_s": 9.298999071121216
+    },
+    {
+      "step": 1751,
+      "loss": 0.35941022634506226,
+      "gaussians": 44404,
+      "elapsed_s": 10.675000190734863
+    },
+    {
+      "step": 2001,
+      "loss": 0.3991749882698059,
+      "gaussians": 44404,
+      "elapsed_s": 12.075500249862671
+    },
+    {
+      "step": 2251,
+      "loss": 0.36117246747016907,
+      "gaussians": 44404,
+      "elapsed_s": 13.44899868965149
+    },
+    {
+      "step": 2501,
+      "loss": 0.36606982350349426,
+      "gaussians": 44404,
+      "elapsed_s": 14.857500314712524
+    },
+    {
+      "step": 2751,
+      "loss": 0.3908064365386963,
+      "gaussians": 44404,
+      "elapsed_s": 16.265000104904175
+    },
+    {
+      "step": 3000,
+      "loss": 0.3930259644985199,
+      "gaussians": 44404,
+      "elapsed_s": 17.66800045967102
+    }
+  ]
+}

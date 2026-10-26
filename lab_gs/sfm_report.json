@@ -1,0 +1,19 @@
+{
+  "input_images": 9,
+  "models": [
+    {
+      "id": 0,
+      "registered_images": 3,
+      "points3D": 122,
+      "mean_reprojection_error_px": 0.3781285160383097,
+      "images": [
+        "lab_03.jpg",
+        "lab_07.jpg",
+        "lab_09.jpg"
+      ]
+    }
+  ],
+  "status": "poses_recovered",
+  "best_model": 0,
+  "verified_pairs": 15
+}

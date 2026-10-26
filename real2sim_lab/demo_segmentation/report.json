@@ -1,0 +1,31 @@
+{
+  "stage": "SAM3 segmentation only",
+  "objects": [
+    {
+      "prompt": "pot",
+      "count": 1,
+      "scores": [
+        0.953125
+      ]
+    },
+    {
+      "prompt": "bottle",
+      "count": 1,
+      "scores": [
+        0.97265625
+      ]
+    },
+    {
+      "prompt": "towel",
+      "count": 1,
+      "scores": [
+        0.9609375
+      ]
+    }
+  ],
+  "generated_mesh": false,
+  "generated_gs": false,
+  "compatibility": "CPU/OpenCV EDT helper; upstream USE_PERFLIB=0; neural model unmodified",
+  "elapsed_s": 12.767500162124634,
+  "peak_gpu_allocated_gib": 4.970907688140869
+}

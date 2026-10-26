@@ -1,0 +1,74 @@
+[
+  {
+    "name": "table_covered_with_a_gray_tablecloth_00",
+    "prompt": "table covered with a gray tablecloth",
+    "score": 0.859375,
+    "pixels": 137477
+  },
+  {
+    "name": "table_covered_with_a_gray_tablecloth_01",
+    "prompt": "table covered with a gray tablecloth",
+    "score": 0.51171875,
+    "pixels": 21284
+  },
+  {
+    "name": "white_folding_screen_00",
+    "prompt": "white folding screen",
+    "score": 0.6640625,
+    "pixels": 24446
+  },
+  {
+    "name": "white_folding_screen_01",
+    "prompt": "white folding screen",
+    "score": 0.78125,
+    "pixels": 16496
+  },
+  {
+    "name": "white_folding_screen_02",
+    "prompt": "white folding screen",
+    "score": 0.7734375,
+    "pixels": 143545
+  },
+  {
+    "name": "white_folding_screen_03",
+    "prompt": "white folding screen",
+    "score": 0.80859375,
+    "pixels": 113565
+  },
+  {
+    "name": "white_folding_screen_04",
+    "prompt": "white folding screen",
+    "score": 0.74609375,
+    "pixels": 9530
+  },
+  {
+    "name": "white_folding_screen_05",
+    "prompt": "white folding screen",
+    "score": 0.625,
+    "pixels": 23226
+  },
+  {
+    "name": "white_folding_screen_06",
+    "prompt": "white folding screen",
+    "score": 0.58203125,
+    "pixels": 11394
+  },
+  {
+    "name": "white_folding_screen_07",
+    "prompt": "white folding screen",
+    "score": 0.8125,
+    "pixels": 47669
+  },
+  {
+    "name": "white_folding_screen_08",
+    "prompt": "white folding screen",
+    "score": 0.734375,
+    "pixels": 9448
+  },
+  {
+    "name": "white_folding_screen_09",
+    "prompt": "white folding screen",
+    "score": 0.7890625,
+    "pixels": 27184
+  }
+]

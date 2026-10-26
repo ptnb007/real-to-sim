@@ -1,0 +1,30 @@
+[
+  {
+    "name": "purple_table",
+    "label": "视频帧：桌子和紫色挡板",
+    "count": 16000,
+    "full_count": 106228,
+    "ply": "purple_table.ply",
+    "center": [
+      -0.13097457587718964,
+      -0.17846308648586273,
+      -1.1923750638961792
+    ],
+    "scale": 1.8365494012832642,
+    "source": "C:\\Users\\woom\\Desktop\\woom\\mira_scene\\results\\real_lab_mira\\cases\\purple_table\\input\\scene.png"
+  },
+  {
+    "name": "white_divider",
+    "label": "照片：白色挡板",
+    "count": 16000,
+    "full_count": 242963,
+    "ply": "white_divider.ply",
+    "center": [
+      -0.0015589965041726828,
+      0.0007555308984592557,
+      -1.824512243270874
+    ],
+    "scale": 4.8429412841796875,
+    "source": "C:\\Users\\woom\\Desktop\\woom\\mira_scene\\results\\real_lab_mira\\cases\\white_divider\\input\\scene.png"
+  }
+]

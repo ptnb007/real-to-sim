@@ -1,0 +1,10 @@
+{
+  "status": "running",
+  "cycles": [
+    {
+      "cycle": 1,
+      "status": "passed",
+      "lift_m": 0.09667295217514038
+    }
+  ]
+}

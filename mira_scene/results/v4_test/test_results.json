@@ -1,0 +1,18 @@
+[
+  {
+    "test": "full_preflight",
+    "exit_code": 2
+  },
+  {
+    "test": "v4_eye_depth",
+    "exit_code": 0
+  },
+  {
+    "test": "v4_overview_depth",
+    "exit_code": 0
+  },
+  {
+    "test": "v4_eye_floor",
+    "exit_code": 0
+  }
+]

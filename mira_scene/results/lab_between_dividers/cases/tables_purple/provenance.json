@@ -1,0 +1,32 @@
+{
+  "source": "/mnt/c/Users/woom/Desktop/woom/mira_scene/results/lab_between_dividers/cleaned/07.png",
+  "image_inpainted": true,
+  "scope": "tables, divider, floor; other scene content excluded by masks",
+  "scale": "uncalibrated",
+  "objects": [
+    {
+      "prompt": "table covered with gray cloth",
+      "score": 0.97265625,
+      "mask": "mask_000.png",
+      "pixels": 79694
+    },
+    {
+      "prompt": "table covered with gray cloth",
+      "score": 0.98828125,
+      "mask": "mask_001.png",
+      "pixels": 488785
+    },
+    {
+      "prompt": "purple folding room divider",
+      "score": 0.6640625,
+      "mask": "mask_002.png",
+      "pixels": 110586
+    },
+    {
+      "prompt": "floor",
+      "score": 0.9140625,
+      "mask": "floor_mask.png",
+      "pixels": 261802
+    }
+  ]
+}

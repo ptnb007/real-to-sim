@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "method": "Mira CCM + official SAM3D stage2, unused stage1 omitted",
+  "objects": [],
+  "error": "TypeError(\"SLatFlowModelTdfyWrapper.__init__.<locals>.<lambda>() got an unexpected keyword argument 'mask'\")"
+}

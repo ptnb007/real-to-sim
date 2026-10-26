@@ -1,0 +1,20 @@
+{
+  "source": "/mnt/c/Users/woom/Desktop/woom/mira_scene/results/lab_between_dividers/originals/09_5473f5c5d4281be7c15cc84b828c47d6.jpg",
+  "image_inpainted": false,
+  "scope": "tables, divider, floor; other scene content excluded by masks",
+  "scale": "uncalibrated",
+  "objects": [
+    {
+      "prompt": "white folding room divider",
+      "score": 0.76171875,
+      "mask": "mask_000.png",
+      "pixels": 517814
+    },
+    {
+      "prompt": "floor",
+      "score": 0.8828125,
+      "mask": "floor_mask.png",
+      "pixels": 438674
+    }
+  ]
+}

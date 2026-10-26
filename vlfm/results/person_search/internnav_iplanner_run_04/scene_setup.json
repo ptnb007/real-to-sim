@@ -1,0 +1,27 @@
+{
+  "scene_id": "data/scene_datasets/hm3d/val/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+  "start_position": [
+    1.9502099752426147,
+    0.1633799970149994,
+    -5.668019771575928
+  ],
+  "start_rotation_xyzw": [
+    0.0,
+    0.9821699857711792,
+    0.0,
+    0.1880200058221817
+  ],
+  "target_floor_position": [
+    -1.691327452659607,
+    0.16337794065475464,
+    -2.471801519393921
+  ],
+  "asset": "/mnt/c/Users/woom/Desktop/woom/vlfm/data/person_search/rocketbox/Male_Adult_01_standing.glb",
+  "asset_name": "rocketbox",
+  "asset_relative_path": "data/person_search/rocketbox/Male_Adult_01_standing.glb",
+  "asset_sha256": "c55b5cf94d3f9fac24a81cab5fe07222de18dfe00ae61ec0ad91ab35e3b1894d",
+  "person_height_m": 1.7,
+  "person_yaw_radians": 2.3,
+  "semantic_id_evaluation_only": 10001,
+  "target_position_passed_to_policy": false
+}

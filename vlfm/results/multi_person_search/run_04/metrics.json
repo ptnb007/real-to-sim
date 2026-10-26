@@ -1,0 +1,77 @@
+{
+  "success": false,
+  "task": "custom multi-room multi-pose person search",
+  "steps": 750,
+  "path_length_m": 81.56086890026927,
+  "people_total": 3,
+  "people_found": 3,
+  "found_events": [
+    {
+      "step": 91,
+      "pose": "seated",
+      "semantic_id": 11002,
+      "region": {
+        "id": "_5",
+        "category": "unknown"
+      },
+      "distance_m": 1.0776774883270264
+    },
+    {
+      "step": 134,
+      "pose": "standing",
+      "semantic_id": 11001,
+      "region": {
+        "id": "_8",
+        "category": "unknown"
+      },
+      "distance_m": 1.0947391986846924
+    },
+    {
+      "step": 584,
+      "pose": "lying",
+      "semantic_id": 11003,
+      "region": {
+        "id": "_4",
+        "category": "unknown"
+      },
+      "distance_m": 0.8934017419815063
+    }
+  ],
+  "all_pose_types_found": {
+    "standing": true,
+    "seated": true,
+    "lying": true
+  },
+  "distinct_target_regions": 3,
+  "distinct_regions_visited": 7,
+  "room_scans_360_completed": {
+    "seated": 12,
+    "standing": 12,
+    "lying": 12
+  },
+  "full_scan_definition": "all targets found; 12-view scan after each; no >=1.5m2 frontier remains",
+  "full_scan_complete": false,
+  "termination": "step_budget",
+  "initial_target_pixels": {
+    "standing": 0,
+    "seated": 0,
+    "lying": 0
+  },
+  "confidence_threshold": 0.58,
+  "false_positive_detection_frames": 3,
+  "blocked_forward_steps": 54,
+  "unconfirmed_policy_stops_rejected": 3,
+  "stale_visual_target_resets": 2,
+  "elapsed_seconds": 418.6276385420001,
+  "target_positions_passed_to_policy": false,
+  "policy_inputs": [
+    "rgb",
+    "depth",
+    "gps",
+    "compass",
+    "heading",
+    "person"
+  ],
+  "evaluation_intervention": "confirmed found avatars removed after STOP to prevent rediscovery",
+  "not_a_benchmark": true
+}

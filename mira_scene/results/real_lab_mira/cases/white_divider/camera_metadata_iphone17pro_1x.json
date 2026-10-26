@@ -1,0 +1,28 @@
+{
+  "source_image": "input/scene.png",
+  "image_size_px": {
+    "width": 1707,
+    "height": 1280
+  },
+  "capture_device_reported_by_user": "Apple iPhone 17 Pro",
+  "capture_lens_reported_by_user": "rear Fusion Main, 1x",
+  "intrinsics_status": "nominal estimate, not hardware-calibrated",
+  "nominal_intrinsics_px": [
+    [1183.6, 0.0, 853.5],
+    [0.0, 1183.4, 640.0],
+    [0.0, 0.0, 1.0]
+  ],
+  "nominal_fov_deg": {
+    "horizontal": 71.59,
+    "vertical": 56.81
+  },
+  "estimation_basis": "Apple published 24 mm full-frame-equivalent main camera focal length; approximate 4:3 active-image geometry scaled to this 1707x1280 image.",
+  "moge_v1_estimated_intrinsics_px": [
+    [1223.0074, 0.0, 853.5],
+    [0.0, 1223.0076, 640.0],
+    [0.0, 0.0, 1.0]
+  ],
+  "exif_metadata_available": false,
+  "depth_scale_status": "relative/unscaled; do not interpret as meters",
+  "metric_scale_calibration": "not performed; requires a measured reference distance/size or a metric-depth source"
+}

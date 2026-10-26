@@ -1,0 +1,13 @@
+{
+  "articulation_roots": [
+    "/World/R1Pro/r1_pro_with_gripper/base_link"
+  ],
+  "base_joints": [
+    "/World/R1Pro/r1_pro_with_gripper/base_link/steer_motor_joint1",
+    "/World/R1Pro/r1_pro_with_gripper/base_link/steer_motor_joint2",
+    "/World/R1Pro/r1_pro_with_gripper/base_link/steer_motor_joint3",
+    "/World/R1Pro/r1_pro_with_gripper/steer_motor_link1/wheel_motor_joint1",
+    "/World/R1Pro/r1_pro_with_gripper/steer_motor_link2/wheel_motor_joint2",
+    "/World/R1Pro/r1_pro_with_gripper/steer_motor_link3/wheel_motor_joint3"
+  ]
+}

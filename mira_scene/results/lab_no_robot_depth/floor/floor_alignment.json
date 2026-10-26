@@ -1,0 +1,114 @@
+{
+  "schema": "mira_scene_floor_estimate_v9",
+  "case": "lab_no_robot",
+  "depth_method": "moge",
+  "coordinate_convention": "OpenGL camera (+X right, +Y up, -Z forward)",
+  "floor_frame_convention": "+Y is floor normal and floor plane is y=0",
+  "in_plane_yaw": "underdetermined; transform uses minimal rotation normal->+Y",
+  "floor_mask": "/home/woom/Mira-Scene/work/lab_no_robot/input/floor_mask.png",
+  "source_scene_image": "/home/woom/Mira-Scene/work/lab_no_robot/input/scene.png",
+  "camera_pts_map": "/home/woom/Mira-Scene/work/lab_no_robot/depth/moge/camera_pts_map.npy",
+  "camera_to_floor_transform": [
+    [
+      0.9999833191524543,
+      -0.005697732975774692,
+      -0.000947235861547336,
+      -0.36779278243148844
+    ],
+    [
+      0.005697732975774692,
+      0.9461937395195457,
+      0.32355052639882226,
+      0.9671182045688537
+    ],
+    [
+      -0.000947235861547336,
+      -0.32355052639882226,
+      0.9462104203670914,
+      1.1880862593252555
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "floor_to_camera_transform": [
+    [
+      0.9999833191524544,
+      0.005697732975774692,
+      -0.0009472358615473371,
+      0.3634016639619569
+    ],
+    [
+      -0.0056977329757746924,
+      0.9461937395195456,
+      -0.32355052639882226,
+      -0.5327708409912503
+    ],
+    [
+      -0.0009472358615473371,
+      0.32355052639882226,
+      0.9462104203670912,
+      -1.437439589559789
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "floor_plane_camera_point": [
+    0.3634016639619569,
+    -0.5327708409912504,
+    -1.4374395895597887
+  ],
+  "floor_plane_camera_normal": [
+    0.005697732975774692,
+    0.9461937395195457,
+    0.32355052639882226
+  ],
+  "floor_plane_equation": {
+    "normal": [
+      0.005697732975774692,
+      0.9461937395195457,
+      0.32355052639882226
+    ],
+    "offset": 0.9671182045688536
+  },
+  "num_input_points": 388112,
+  "num_inliers": 369026,
+  "inlier_fraction": 0.9508234736364761,
+  "ransac_threshold": 0.03,
+  "median_residual": 0.001248545942201492,
+  "p95_residual": 0.00392186077827048,
+  "max_residual": 0.03132917395094039,
+  "floor_plane_visualization": "/home/woom/Mira-Scene/work/lab_no_robot/floor/floor_plane.glb",
+  "floor_vertices": 4,
+  "floor_faces": 2,
+  "floor_extent_source": "fixed square placeholder; resize from reconstructed meshes during scene assembly",
+  "floor_placeholder_size": 2.0,
+  "floor_placeholder_center_xz": [
+    0.0,
+    0.0
+  ],
+  "floor_plane_xz_bounds": {
+    "min": [
+      -1.0,
+      -1.0
+    ],
+    "max": [
+      1.0,
+      1.0
+    ]
+  },
+  "floor_texture_mode": "source",
+  "floor_texture_path": "/home/woom/Mira-Scene/work/lab_no_robot/floor/floor_texture.png",
+  "floor_texture_size": 1024,
+  "floor_texture_tiling": 2.0,
+  "floor_texture_model": null,
+  "floor_texture_base_url": null,
+  "floor_texture_prompt": null
+}

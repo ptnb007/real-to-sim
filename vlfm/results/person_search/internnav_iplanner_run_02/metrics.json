@@ -1,0 +1,29 @@
+{
+  "success": false,
+  "episode_count": 1,
+  "task": "custom static person search",
+  "policy": "VLFM + GroundingDINO + InternNav iPlanner",
+  "steps": 200,
+  "path_length_m": 2.5938923358917236,
+  "person_confidence_threshold": 0.65,
+  "false_positive_detection_frames": 0,
+  "blocked_forward_steps": 171,
+  "distance_to_person_center_m": 3.612371452238251,
+  "success_radius_m": 1.2,
+  "stop_called": false,
+  "inserted_person_detection_confirmed": false,
+  "initial_person_visible": false,
+  "last_matching_detection_step": -1000,
+  "elapsed_seconds": 96.13143037799998,
+  "target_position_passed_to_policy": false,
+  "iplanner_enabled": true,
+  "policy_inputs": [
+    "rgb",
+    "depth",
+    "gps",
+    "compass",
+    "heading",
+    "person"
+  ],
+  "not_a_benchmark": true
+}

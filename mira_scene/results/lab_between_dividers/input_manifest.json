@@ -1,0 +1,76 @@
+{
+  "scope": "Area between the two dividers: tables, tablecloths, and intervening floor",
+  "exclude": [
+    "all robots",
+    "loose objects on the foreground table",
+    "outside area"
+  ],
+  "originals_preserved": true,
+  "geometry_caveat": "Image inpainting is hypothetical; missing observations are not measurements. Mira is a per-image pipeline; cross-view registration is separate.",
+  "photos": [
+    {
+      "index": 1,
+      "source": "C:\\Users\\woom\\Documents\\xwechat_files\\wxid_3fg5lyf1apf612_e732\\temp\\RWTemp\\2026-09\\b69eae616f02c776265a0b6423a5cd6c\\95c4b8ccedec90a0b64aaa6e4ee39327.jpg",
+      "preserved_original": "C:\\Users\\woom\\Desktop\\woom\\mira_scene\\results\\lab_between_dividers\\originals\\01_95c4b8ccedec90a0b64aaa6e4ee39327.jpg",
+      "edit_needed": true,
+      "role": "candidate_reconstruction_view"
+    },
+    {
+      "index": 2,
+      "source": "C:\\Users\\woom\\Documents\\xwechat_files\\wxid_3fg5lyf1apf612_e732\\temp\\RWTemp\\2026-09\\b69eae616f02c776265a0b6423a5cd6c\\b836ce3d834f8dce16f34a66658350a5.jpg",
+      "preserved_original": "C:\\Users\\woom\\Desktop\\woom\\mira_scene\\results\\lab_between_dividers\\originals\\02_b836ce3d834f8dce16f34a66658350a5.jpg",
+      "edit_needed": true,
+      "role": "candidate_reconstruction_view"
+    },
+    {
+      "index": 3,
+      "source": "C:\\Users\\woom\\Documents\\xwechat_files\\wxid_3fg5lyf1apf612_e732\\temp\\RWTemp\\2026-09\\b69eae616f02c776265a0b6423a5cd6c\\bf7d9c37fb3bdbe65152dd905dbb10f2.jpg",
+      "preserved_original": "C:\\Users\\woom\\Desktop\\woom\\mira_scene\\results\\lab_between_dividers\\originals\\03_bf7d9c37fb3bdbe65152dd905dbb10f2.jpg",
+      "edit_needed": true,
+      "role": "candidate_reconstruction_view"
+    },
+    {
+      "index": 4,
+      "source": "C:\\Users\\woom\\Documents\\xwechat_files\\wxid_3fg5lyf1apf612_e732\\temp\\RWTemp\\2026-09\\b69eae616f02c776265a0b6423a5cd6c\\b72a0e426a713817ab75bbcba8ff06c0.jpg",
+      "preserved_original": "C:\\Users\\woom\\Desktop\\woom\\mira_scene\\results\\lab_between_dividers\\originals\\04_b72a0e426a713817ab75bbcba8ff06c0.jpg",
+      "edit_needed": false,
+      "role": "scope_reference_only"
+    },
+    {
+      "index": 5,
+      "source": "C:\\Users\\woom\\Documents\\xwechat_files\\wxid_3fg5lyf1apf612_e732\\temp\\RWTemp\\2026-09\\b69eae616f02c776265a0b6423a5cd6c\\2c0ff0f05074c56a75c16f7fb433fa9d.jpg",
+      "preserved_original": "C:\\Users\\woom\\Desktop\\woom\\mira_scene\\results\\lab_between_dividers\\originals\\05_2c0ff0f05074c56a75c16f7fb433fa9d.jpg",
+      "edit_needed": false,
+      "role": "candidate_reconstruction_view"
+    },
+    {
+      "index": 6,
+      "source": "C:\\Users\\woom\\Documents\\xwechat_files\\wxid_3fg5lyf1apf612_e732\\temp\\RWTemp\\2026-09\\b69eae616f02c776265a0b6423a5cd6c\\38a447b4732866e31ba0569052315b32.jpg",
+      "preserved_original": "C:\\Users\\woom\\Desktop\\woom\\mira_scene\\results\\lab_between_dividers\\originals\\06_38a447b4732866e31ba0569052315b32.jpg",
+      "edit_needed": false,
+      "role": "candidate_reconstruction_view"
+    },
+    {
+      "index": 7,
+      "source": "C:\\Users\\woom\\Documents\\xwechat_files\\wxid_3fg5lyf1apf612_e732\\temp\\RWTemp\\2026-09\\b69eae616f02c776265a0b6423a5cd6c\\43494f12a82a6f60a899fdec7d6aedec.jpg",
+      "preserved_original": "C:\\Users\\woom\\Desktop\\woom\\mira_scene\\results\\lab_between_dividers\\originals\\07_43494f12a82a6f60a899fdec7d6aedec.jpg",
+      "edit_needed": true,
+      "role": "candidate_reconstruction_view"
+    },
+    {
+      "index": 8,
+      "source": "C:\\Users\\woom\\Documents\\xwechat_files\\wxid_3fg5lyf1apf612_e732\\temp\\RWTemp\\2026-09\\b69eae616f02c776265a0b6423a5cd6c\\d0dd85f3a74afc738b964fd3b7f7df54.jpg",
+      "preserved_original": "C:\\Users\\woom\\Desktop\\woom\\mira_scene\\results\\lab_between_dividers\\originals\\08_d0dd85f3a74afc738b964fd3b7f7df54.jpg",
+      "edit_needed": true,
+      "role": "candidate_reconstruction_view"
+    },
+    {
+      "index": 9,
+      "source": "C:\\Users\\woom\\Documents\\xwechat_files\\wxid_3fg5lyf1apf612_e732\\temp\\RWTemp\\2026-09\\b69eae616f02c776265a0b6423a5cd6c\\5473f5c5d4281be7c15cc84b828c47d6.jpg",
+      "preserved_original": "C:\\Users\\woom\\Desktop\\woom\\mira_scene\\results\\lab_between_dividers\\originals\\09_5473f5c5d4281be7c15cc84b828c47d6.jpg",
+      "edit_needed": false,
+      "role": "candidate_reconstruction_view"
+    }
+  ],
+  "status": "inputs_preserved_image_cleanup_in_progress"
+}

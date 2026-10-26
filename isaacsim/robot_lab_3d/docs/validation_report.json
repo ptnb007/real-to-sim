@@ -1,0 +1,44 @@
+{
+  "geometry": {
+    "glb_header_valid": true,
+    "all_indices_in_range": true,
+    "all_positions_normals_uv_finite": true,
+    "embedded_textures_decoded": 15,
+    "independent_trimesh_load": true,
+    "mesh_count": 100,
+    "triangle_count": 48834,
+    "bounds_glb_y_up": [
+      [
+        -3.387474536895752,
+        -0.12999999523162842,
+        -2.9000000953674316
+      ],
+      [
+        3.3499999046325684,
+        3.0199999809265137,
+        3.200000047683716
+      ]
+    ],
+    "usd_static_collision_meshes": 34,
+    "usd_texture_paths_exist": true
+  },
+  "browser": {
+    "orbit_mouse": true,
+    "zoom_wheel": true,
+    "pan_mouse": true,
+    "object_drag": true,
+    "edited_glb_download_valid": true,
+    "layout_json_download": true,
+    "scale_control": true,
+    "wireframe_and_grid": true,
+    "mobile_layout_checked": true,
+    "javascript_errors": [],
+    "external_requests": [],
+    "tested_renderer": "Chromium 144 / WebGL 2 / SwiftShader (headless)",
+    "layout_to_usd_transform_conversion_tested": true
+  },
+  "limitations": [
+    "Isaac Sim not installed: USD runtime/PhysX behaviour not tested.",
+    "OpenUSD Python SDK not installed: USDA schema parser not executed; structure and authored data audited."
+  ]
+}

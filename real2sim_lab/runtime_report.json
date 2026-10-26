@@ -1,0 +1,20 @@
+{
+  "available_modules": {
+    "torch": true,
+    "torchvision": true,
+    "einops": false,
+    "huggingface_hub": false,
+    "omegaconf": false,
+    "beartype": false,
+    "wandb": false,
+    "lightning": false,
+    "torch_scatter": false,
+    "xformers": false,
+    "timm": false,
+    "e3nn": false,
+    "dacite": false,
+    "open3d": false
+  },
+  "anysplat_import": "failed",
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\woom\\Desktop\\woom\\real2sim_lab\\probe_runtime.py\", line 14, in <module>\n    from src.model.model.anysplat import AnySplat\n  File \"C:\\Users\\woom\\Desktop\\woom\\third_party\\gs-real2sim\\submodule\\AnySplat\\src\\model\\model\\__init__.py\", line 3, in <module>\n    from ..encoder import Encoder\n  File \"C:\\Users\\woom\\Desktop\\woom\\third_party\\gs-real2sim\\submodule\\AnySplat\\src\\model\\encoder\\__init__.py\", line 3, in <module>\n    from .encoder import Encoder\n  File \"C:\\Users\\woom\\Desktop\\woom\\third_party\\gs-real2sim\\submodule\\AnySplat\\src\\model\\encoder\\encoder.py\", line 6, in <module>\n    from src.dataset.types import BatchedViews, DataShim\n  File \"C:\\Users\\woom\\Desktop\\woom\\third_party\\gs-real2sim\\submodule\\AnySplat\\src\\dataset\\__init__.py\", line 8, in <module>\n    from .view_sampler import get_view_sampler\n  File \"C:\\Users\\woom\\Desktop\\woom\\third_party\\gs-real2sim\\submodule\\AnySplat\\src\\dataset\\view_sampler\\__init__.py\", line 9, in <module>\n    from .view_sampler_evaluation import ViewSamplerEvaluation, ViewSamplerEvaluationCfg\n  File \"C:\\Users\\woom\\Desktop\\woom\\third_party\\gs-real2sim\\submodule\\AnySplat\\src\\dataset\\view_sampler\\view_sampler_evaluation.py\", line 7, in <module>\n    from dacite import Config, from_dict\nModuleNotFoundError: No module named 'dacite'\n"
+}

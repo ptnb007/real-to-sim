@@ -1,0 +1,1055 @@
+[
+  {
+    "step": 0,
+    "action": 2,
+    "position": [
+      1.9502099752426147,
+      0.1633799970149994,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": false,
+    "stop_called": false
+  },
+  {
+    "step": 1,
+    "action": 2,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [
+        [
+          0.1641072928905487,
+          -0.0002354159951210022,
+          0.3210659921169281,
+          0.1813931167125702
+        ]
+      ],
+      "logits": [
+        0.5273709297180176
+      ],
+      "phrases": [
+        "person"
+      ]
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": false,
+    "stop_called": false
+  },
+  {
+    "step": 2,
+    "action": 2,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [
+        [
+          0.510255753993988,
+          0.00011695921421051025,
+          0.6464257836341858,
+          0.22152933478355408
+        ]
+      ],
+      "logits": [
+        0.4651279151439667
+      ],
+      "phrases": [
+        "person"
+      ]
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": false,
+    "stop_called": false
+  },
+  {
+    "step": 3,
+    "action": 2,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [
+        [
+          0.8646107316017151,
+          0.00033849477767944336,
+          0.9993485808372498,
+          0.17074842751026154
+        ]
+      ],
+      "logits": [
+        0.5809765458106995
+      ],
+      "phrases": [
+        "person"
+      ]
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 4,
+    "action": 2,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 5,
+    "action": 2,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 6,
+    "action": 2,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 7,
+    "action": 2,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 8,
+    "action": 2,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 9,
+    "action": 2,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 10,
+    "action": 2,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 11,
+    "action": 2,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 12,
+    "action": 2,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 13,
+    "action": 2,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [
+        [
+          0.1641187071800232,
+          -0.00025138258934020996,
+          0.32106539607048035,
+          0.18139739334583282
+        ]
+      ],
+      "logits": [
+        0.5233718752861023
+      ],
+      "phrases": [
+        "person"
+      ]
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 14,
+    "action": 2,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [
+        [
+          0.5102354884147644,
+          0.00012701749801635742,
+          0.6464316248893738,
+          0.22151696681976318
+        ]
+      ],
+      "logits": [
+        0.4598192274570465
+      ],
+      "phrases": [
+        "person"
+      ]
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 15,
+    "action": 3,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [
+        [
+          0.8645861148834229,
+          0.00033467262983322144,
+          0.9993563890457153,
+          0.1707724630832672
+        ]
+      ],
+      "logits": [
+        0.5666866898536682
+      ],
+      "phrases": [
+        "person"
+      ]
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 16,
+    "action": 3,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [
+        [
+          0.5102457404136658,
+          0.00013540685176849365,
+          0.6464303135871887,
+          0.22151318192481995
+        ]
+      ],
+      "logits": [
+        0.46533071994781494
+      ],
+      "phrases": [
+        "person"
+      ]
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 17,
+    "action": 3,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [
+        [
+          0.16412287950515747,
+          -0.00024531036615371704,
+          0.3210468590259552,
+          0.18140852451324463
+        ]
+      ],
+      "logits": [
+        0.5212374329566956
+      ],
+      "phrases": [
+        "person"
+      ]
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 18,
+    "action": 3,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 19,
+    "action": 3,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 20,
+    "action": 1,
+    "position": [
+      1.9502099752426147,
+      0.16337794065475464,
+      -5.668019771575928
+    ],
+    "distance_to_person_center_m": 4.845266345041739,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 21,
+    "action": 1,
+    "position": [
+      1.7028446197509766,
+      0.16337794065475464,
+      -5.631820201873779
+    ],
+    "distance_to_person_center_m": 4.637469367095991,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 22,
+    "action": 1,
+    "position": [
+      1.4554792642593384,
+      0.16337794065475464,
+      -5.595620632171631
+    ],
+    "distance_to_person_center_m": 4.434031840548905,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 23,
+    "action": 1,
+    "position": [
+      1.2081139087677002,
+      0.16337794065475464,
+      -5.559421062469482
+    ],
+    "distance_to_person_center_m": 4.235581973133984,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 24,
+    "action": 1,
+    "position": [
+      0.9607486128807068,
+      0.16337794065475464,
+      -5.523221492767334
+    ],
+    "distance_to_person_center_m": 4.042854351978808,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 25,
+    "action": 1,
+    "position": [
+      0.7133833169937134,
+      0.16337794065475464,
+      -5.4870219230651855
+    ],
+    "distance_to_person_center_m": 3.856706881317553,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 26,
+    "action": 1,
+    "position": [
+      0.46601802110671997,
+      0.16337794065475464,
+      -5.450822353363037
+    ],
+    "distance_to_person_center_m": 3.678138744311055,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 27,
+    "action": 1,
+    "position": [
+      0.21865271031856537,
+      0.16337794065475464,
+      -5.414622783660889
+    ],
+    "distance_to_person_center_m": 3.5083074575059636,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 28,
+    "action": 1,
+    "position": [
+      -0.028712600469589233,
+      0.16337794065475464,
+      -5.37842321395874
+    ],
+    "distance_to_person_center_m": 3.3485426415140207,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 29,
+    "action": 1,
+    "position": [
+      -0.27607792615890503,
+      0.16337794065475464,
+      -5.342223644256592
+    ],
+    "distance_to_person_center_m": 3.2003522301711715,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 30,
+    "action": 1,
+    "position": [
+      -0.5234432220458984,
+      0.16337794065475464,
+      -5.306024074554443
+    ],
+    "distance_to_person_center_m": 3.0654153174238585,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 31,
+    "action": 1,
+    "position": [
+      -0.7708085179328918,
+      0.16337794065475464,
+      -5.269824504852295
+    ],
+    "distance_to_person_center_m": 2.945553892962035,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 32,
+    "action": 2,
+    "position": [
+      -1.0181738138198853,
+      0.16337794065475464,
+      -5.2336249351501465
+    ],
+    "distance_to_person_center_m": 2.8426755708843285,
+    "person_pixels_eval_only": 0,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 33,
+    "action": 1,
+    "position": [
+      -1.0181738138198853,
+      0.16337794065475464,
+      -5.2336249351501465
+    ],
+    "distance_to_person_center_m": 2.8426755708843285,
+    "person_pixels_eval_only": 8232,
+    "detections": {
+      "boxes": [
+        [
+          0.022779405117034912,
+          0.19195786118507385,
+          0.1869891881942749,
+          0.8174976110458374
+        ]
+      ],
+      "logits": [
+        0.4954970180988312
+      ],
+      "phrases": [
+        "person"
+      ]
+    },
+    "detection_matches_inserted_person": true,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 34,
+    "action": 1,
+    "position": [
+      -1.2142987251281738,
+      0.16337794065475464,
+      -5.078592777252197
+    ],
+    "distance_to_person_center_m": 2.650078691083831,
+    "person_pixels_eval_only": 5588,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 35,
+    "action": 2,
+    "position": [
+      -1.4104236364364624,
+      0.16337794065475464,
+      -4.923560619354248
+    ],
+    "distance_to_person_center_m": 2.4677985408470846,
+    "person_pixels_eval_only": 1399,
+    "detections": {
+      "boxes": [],
+      "logits": [],
+      "phrases": []
+    },
+    "detection_matches_inserted_person": false,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 36,
+    "action": 1,
+    "position": [
+      -1.4104236364364624,
+      0.16337794065475464,
+      -4.923560619354248
+    ],
+    "distance_to_person_center_m": 2.4677985408470846,
+    "person_pixels_eval_only": 13796,
+    "detections": {
+      "boxes": [
+        [
+          0.15216249227523804,
+          0.2137393355369568,
+          0.47875452041625977,
+          0.8168817162513733
+        ]
+      ],
+      "logits": [
+        0.78110671043396
+      ],
+      "phrases": [
+        "person"
+      ]
+    },
+    "detection_matches_inserted_person": true,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 37,
+    "action": 1,
+    "position": [
+      -1.5027565956115723,
+      0.16337794065475464,
+      -4.6912360191345215
+    ],
+    "distance_to_person_center_m": 2.2274309117830433,
+    "person_pixels_eval_only": 17482,
+    "detections": {
+      "boxes": [
+        [
+          0.1083267480134964,
+          0.17810717225074768,
+          0.47651469707489014,
+          0.8579127788543701
+        ]
+      ],
+      "logits": [
+        0.8394967913627625
+      ],
+      "phrases": [
+        "person"
+      ]
+    },
+    "detection_matches_inserted_person": true,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 38,
+    "action": 2,
+    "position": [
+      -1.5950895547866821,
+      0.16337794065475464,
+      -4.458911418914795
+    ],
+    "distance_to_person_center_m": 1.9894389876949878,
+    "person_pixels_eval_only": 22900,
+    "detections": {
+      "boxes": [
+        [
+          0.057915374636650085,
+          0.1307031214237213,
+          0.47266942262649536,
+          0.9090567827224731
+        ]
+      ],
+      "logits": [
+        0.8405396342277527
+      ],
+      "phrases": [
+        "person"
+      ]
+    },
+    "detection_matches_inserted_person": true,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 39,
+    "action": 1,
+    "position": [
+      -1.5950895547866821,
+      0.16337794065475464,
+      -4.458911418914795
+    ],
+    "distance_to_person_center_m": 1.9894389876949878,
+    "person_pixels_eval_only": 20411,
+    "detections": {
+      "boxes": [
+        [
+          0.43482938408851624,
+          0.1437252163887024,
+          0.8153733015060425,
+          0.8895049691200256
+        ]
+      ],
+      "logits": [
+        0.8255342245101929
+      ],
+      "phrases": [
+        "person"
+      ]
+    },
+    "detection_matches_inserted_person": true,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 40,
+    "action": 1,
+    "position": [
+      -1.5588901042938232,
+      0.16337794065475464,
+      -4.211545944213867
+    ],
+    "distance_to_person_center_m": 1.744778013081964,
+    "person_pixels_eval_only": 27432,
+    "detections": {
+      "boxes": [
+        [
+          0.427812397480011,
+          0.08687889575958252,
+          0.859355628490448,
+          0.9501292705535889
+        ]
+      ],
+      "logits": [
+        0.7182252407073975
+      ],
+      "phrases": [
+        "person"
+      ]
+    },
+    "detection_matches_inserted_person": true,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 41,
+    "action": 1,
+    "position": [
+      -1.5226906538009644,
+      0.16337794065475464,
+      -3.9641804695129395
+    ],
+    "distance_to_person_center_m": 1.5018765930287463,
+    "person_pixels_eval_only": 38498,
+    "detections": {
+      "boxes": [
+        [
+          0.41574615240097046,
+          0.008584707975387573,
+          0.9216344952583313,
+          0.9988282918930054
+        ]
+      ],
+      "logits": [
+        0.8400309085845947
+      ],
+      "phrases": [
+        "person"
+      ]
+    },
+    "detection_matches_inserted_person": true,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 42,
+    "action": 3,
+    "position": [
+      -1.4864912033081055,
+      0.16337794065475464,
+      -3.7168149948120117
+    ],
+    "distance_to_person_center_m": 1.2617513396153077,
+    "person_pixels_eval_only": 51083,
+    "detections": {
+      "boxes": [
+        [
+          0.40261054039001465,
+          0.002227604389190674,
+          1.000065565109253,
+          0.9978528618812561
+        ]
+      ],
+      "logits": [
+        0.7610014081001282
+      ],
+      "phrases": [
+        "person"
+      ]
+    },
+    "detection_matches_inserted_person": true,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 43,
+    "action": 1,
+    "position": [
+      -1.4864912033081055,
+      0.16337794065475464,
+      -3.7168149948120117
+    ],
+    "distance_to_person_center_m": 1.2617513396153077,
+    "person_pixels_eval_only": 49076,
+    "detections": {
+      "boxes": [
+        [
+          0.003943204879760742,
+          0.0014358162879943848,
+          0.6080154180526733,
+          0.998490035533905
+        ]
+      ],
+      "logits": [
+        0.8551575541496277
+      ],
+      "phrases": [
+        "person"
+      ]
+    },
+    "detection_matches_inserted_person": true,
+    "target_in_policy_map": true,
+    "stop_called": false
+  },
+  {
+    "step": 44,
+    "action": 0,
+    "position": [
+      -1.5788241624832153,
+      0.16337794065475464,
+      -3.4844906330108643
+    ],
+    "distance_to_person_center_m": 1.0189191484797917,
+    "person_pixels_eval_only": 62241,
+    "detections": {
+      "boxes": [
+        [
+          0.00025394558906555176,
+          0.0014132261276245117,
+          0.6285296678543091,
+          0.9982981085777283
+        ]
+      ],
+      "logits": [
+        0.8687891364097595
+      ],
+      "phrases": [
+        "person"
+      ]
+    },
+    "detection_matches_inserted_person": true,
+    "target_in_policy_map": true,
+    "stop_called": true
+  }
+]

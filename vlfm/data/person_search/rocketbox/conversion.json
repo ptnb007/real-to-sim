@@ -1,0 +1,22 @@
+{
+  "source_repository": "https://github.com/microsoft/Microsoft-Rocketbox",
+  "source_commit": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+  "license": "MIT; Copyright (c) 2020 Microsoft",
+  "blender_version": "4.2.9 LTS",
+  "changes": [
+    "lower upper arms",
+    "bake static mesh",
+    "relink color textures",
+    "hair alpha cutout",
+    "export embedded GLB"
+  ],
+  "source_sha256": {
+    "Male_Adult_01.fbx": "8d1edb51b4dc3427ae2456f4407fc105532c145dd019e53cd42bab31cc948a29",
+    "m002_body_color.tga": "6a048a6b2140a1f5293798ca286be64fd0de6d79572e1273ff5765bd578f463f",
+    "m002_head_color.tga": "f5b64e4894930d438f7c419c3c9d0bba1f95fa4de9af078b762ea55bfca1ab85",
+    "m002_opacity_color.tga": "53818d3f45519451edd2bc60d6e59cd4057ecd381827463c5503da0439d0a5cf"
+  },
+  "asset_sha256": "c55b5cf94d3f9fac24a81cab5fe07222de18dfe00ae61ec0ad91ab35e3b1894d",
+  "asset": "Male_Adult_01_standing.glb",
+  "triangles": 7440
+}

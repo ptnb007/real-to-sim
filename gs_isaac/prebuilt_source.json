@@ -1,0 +1,5 @@
+{
+  "url": "https://github.com/nagadomi/gsplat-windows-builds/releases/download/v20251230_6/gsplat-1.5.3%2Bpt27cu128-cp311-cp311-win_amd64.whl",
+  "sha256": "5ef27cff45308aeed1428e6117d2c7168b746056d098a91d522b18d78bfde086",
+  "provider": "community Windows build; not official gsplat wheel"
+}
